@@ -1,0 +1,5 @@
+# Model weights (too large for git)
+model_cache/
+
+# Cached stock data
+data/
