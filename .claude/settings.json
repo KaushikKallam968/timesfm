@@ -22,20 +22,18 @@
     },
     "sqlite": {
       "type": "stdio",
-      "command": "npx",
+      "command": "uvx",
       "args": [
-        "-y",
-        "@anthropic/mcp-sqlite",
+        "mcp-server-sqlite",
         "--db-path",
         "/home/user/timesfm/bot/data/bot.db"
       ]
     },
     "fetch": {
       "type": "stdio",
-      "command": "npx",
+      "command": "uvx",
       "args": [
-        "-y",
-        "@anthropic/mcp-fetch"
+        "mcp-server-fetch"
       ]
     }
   }
