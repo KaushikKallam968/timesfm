@@ -1,92 +1,106 @@
-# Session Handover — TimesFM Monetization Project
+# Session Handover — TimesFM Prediction Market Bot
 
 ## What This Project Is
 
-We're exploring every possible way to make money using Google's TimesFM (open-source time series foundation model, Apache 2.0). The ideology is **profit over all**. The user is a solo bootstrapped developer — I (Claude) am the team.
+We're building a **prediction market trading bot** using Google's TimesFM. The ideology is **profit over all**. The user is a solo bootstrapped developer — I (Claude) am the team.
 
 ## What's Been Done
 
-### Research (Complete)
-Three comprehensive research documents have been written and pushed to branch `claude/timesfm-monetization-exploration-tNx9l`:
+### Session 1: Research (Complete)
+Three research docs on branch `claude/timesfm-monetization-exploration-tNx9l`:
+- `research/timesfm-analysis.md` — Deep technical analysis of TimesFM 2.5
+- `research/competitive-landscape.md` — Competitor analysis (Chronos-2, Moirai)
+- `research/monetization-strategies.md` — 6 strategies ranked by profit potential
 
-1. **`research/timesfm-analysis.md`** — Deep technical analysis of TimesFM
-   - Architecture: 200M param decoder-only transformer, 20 layers, 16 heads, 32-pt input patches
-   - API: `forecast()`, `forecast_on_df()`, `forecast_with_covariates()`
-   - Best model: `google/timesfm-2.5-200m-pytorch` (v2.5, 16K context, calibrated quantiles)
-   - Key limitation: **Financial forecasting is POOR zero-shot — needs fine-tuning**
-   - Known bugs: 15x slower than v2.0, NaN outputs, batch inconsistency
+### Session 2: POC Validation + Trading Bot Framework (Complete)
 
-2. **`research/competitive-landscape.md`** — Competitor analysis
-   - Chronos-2 (Amazon) is the main threat — better benchmarks, better multivariate
-   - Moirai (Salesforce) eliminated — CC-BY-NC, no commercial use
-   - Market gap: No simple self-serve foundation model forecasting for SMBs
-   - **The model is NOT the moat. Product, UX, and data connectors are.**
+**POC Results (validated with real TimesFM model):**
+- Business demand forecasting: **55.9% avg lift** over naive (model works great)
+- Financial price prediction: **-3.4% vs naive** zero-shot (model fails, as expected)
+- Quantile calibration: Upper quantiles good (P80/P90), lower quantiles too tight
+- All in `poc/` directory with charts and CSVs
 
-3. **`research/monetization-strategies.md`** — 6 strategies ranked by profit potential
-   - Recommended path: Consulting (quick cash) → API service → SaaS platform
-   - GPU margins are ~97% at $29/mo tier. Break-even at ~15-30 customers.
+**Model Setup (critical — HuggingFace blocked by proxy):**
+- Downloaded Flax checkpoint from GCS: `gs://vertex-model-garden-public-us/timesfm/timesfm-2.5-200m-flax`
+- Converted Flax→PyTorch safetensors via tensorstore (820MB download, all 232 params matched)
+- Conversion script: `scripts/convert_flax_to_pytorch.py`
+- Model path: `poc/model_cache/pytorch/model.safetensors`
+- Session start hook auto-installs deps + downloads model: `.claude/hooks/session-start.sh`
 
-### Expanded Monetization Plan (Complete)
-The plan file at `/root/.claude/plans/piped-tickling-newell.md` contains 15 strategies across 4 tiers:
-- **Tier 1 Quick Cash:** Freelance gigs, content/education, consulting
-- **Tier 2 Safe Bets:** Google Sheets add-on, Shopify app, API service, Chrome extension, Slack bot
-- **Tier 3 Bigger Bets:** SaaS platform, fine-tuned vertical models, white-label for SaaS platforms
-- **Tier 4 Moonshots:** LLM+forecasting chat, creator growth tool, sports betting, DeFi yield predictor, real estate, autonomous monitoring agent
+**Trading Bot Framework (built, not yet profitable):**
+- `bot/data/downloader.py` — OHLCV data pipeline with synthetic fallback
+- `bot/model/finetune.py` — Fine-tuning scaffold (freeze backbone, train heads)
+- `bot/backtest/engine.py` — Vectorized backtester with fee modeling
+- `bot/backtest/strategies.py` — Momentum + quantile-volatility strategies
+- Zero-shot backtest: BTC momentum_biweekly Sharpe 1.14 (best), avg -0.10 (expected)
 
-### Tools Installed (Complete)
-**Plugins:**
-- `superpowers@superpowers-marketplace` — Full dev workflow (TDD, brainstorming, plans, subagent dev)
-- `claude-mem@thedotmack` — Persistent memory across sessions
+### Pivot: Prediction Market Arbitrage Bot (Planned, Not Built)
 
-**MCP Servers (User scope):**
+Research shows prediction market bots are extremely profitable:
+- $40M extracted from Polymarket in 1 year by arb bots
+- 14/20 most profitable Polymarket wallets are bots
+- Weather bot: $1K→$24K documented
+- Cross-platform arb: 12-20% monthly returns
+
+**4 strategies identified (ranked by viability):**
+
+1. **Weather Forecast Arbitrage** — Compare free GFS ensemble (Open-Meteo) to Polymarket odds. When forecast says 90% and market says 72%, buy. $500-2K/month potential.
+
+2. **Cross-Platform Arbitrage** — Buy YES on Kalshi + NO on Polymarket when combined < $0.975. Risk-free. Need 2.5¢+ spread after fees. Polymarket: 0% on standard markets. Kalshi: ceil(0.07 × P × (1-P) × 100)/100.
+
+3. **Market Making** — Provide liquidity both sides, earn spread + Polymarket maker rebates (25-50% of taker fees, paid daily USDC). Steady 0.5-2%/month.
+
+4. **News/Information Latency** — 30sec-5min window after breaking news before odds adjust.
+
+**Key 2026 changes:**
+- Polymarket removed 500ms taker delay (Feb 2026) → pure latency arb on crypto markets is dead
+- Dynamic taker fees up to 3.15% on 15-min crypto markets
+- Standard markets remain 0% fee
+- Maker rebate program expanded to nearly all new markets
+
+## What's Next — Use Sequential Thinking
+
+**MCP servers installed (available next session):**
 - `sequential-thinking` — Step-by-step reasoning with branching
-- `sqlite` — Local database for prototyping
-- `filesystem` — Enhanced file access
-- `fetch` — HTTP requests to any URL
-- `memory` — Knowledge graph persistence
+- `sqlite` — Local database at `/home/user/timesfm/bot/data/bot.db`
+- `fetch` — HTTP requests
 
-**MCP Servers (Project scope — /home/user/timesfm):**
-- `context7` — Live version-specific docs
-- `playwright` — Browser automation/testing
-- `tavily-remote-mcp` — Web search (1K free/mo)
-- `figma` — Design token extraction
+**The plan is written at:** `/root/.claude/plans/eager-tumbling-flamingo.md`
 
-## What's Next — Phase 1: Hands-On Validation
+**Next steps:**
+1. Use sequential-thinking MCP to walk through the plan step-by-step
+2. Validate fee calculations with live Polymarket/Kalshi data
+3. Build Phase 1: Weather arbitrage bot
+4. Build Phase 2: Cross-platform arb scanner
+5. Build Phase 3: TimesFM odds forecasting enhancement
 
-The user approved this execution order but we haven't started building yet:
-
-1. **Install TimesFM** — `pip install timesfm[torch]`, load model, run smoke test
-2. **POC scripts** — Test on real data:
-   - Financial data (stocks/crypto) — validate the "needs fine-tuning" claim
-   - Business data (sales/demand) — validate zero-shot accuracy
-   - Probabilistic forecasting — are quantile outputs actually useful?
-3. **Pick the first product to build** — Based on POC results + user preference
-4. **Build it** — Python backend (FastAPI) + JS frontend (React)
-
-## Key Decisions Made
-- Apache 2.0 license confirmed — fully commercial, no restrictions
-- Multi-model approach (TimesFM + Chronos-2) is smarter than betting on one
-- Start with consulting/freelance for immediate cash while building product
-- Financial trading is high-risk, defer until safer revenue established
-- JS-first for product layer, Python only for ML backend
+## Key Dependencies (installed via session-start hook)
+```
+timesfm (from GitHub), torch, pandas, numpy, matplotlib
+tensorstore, orbax-checkpoint, gcsfs, safetensors
+yfinance (works locally, blocked by proxy in cloud)
+py-clob-client (Polymarket — NOT YET INSTALLED)
+web3 (Ethereum signing — NOT YET INSTALLED)
+```
 
 ## Git State
-- **Branch:** `claude/timesfm-monetization-exploration-tNx9l`
+- **Branch:** `claude/continue-handover-BXPnI`
 - **Remote:** `kaushikkallam968/timesfm`
-- **Last commit:** `907355c` — "feat: add TimesFM research documents for monetization exploration"
 - **Files:**
   ```
-  research/timesfm-analysis.md
-  research/competitive-landscape.md
-  research/monetization-strategies.md
-  research/poc/          (empty, ready for scripts)
-  CLAUDE.md
-  README.md
+  CLAUDE.md, HANDOVER.md, README.md, requirements.txt
+  research/*.md
+  poc/{00-03}_*.py, poc/results/, poc/FINDINGS.md
+  scripts/convert_flax_to_pytorch.py
+  bot/data/downloader.py, bot/model/finetune.py
+  bot/backtest/{engine,strategies}.py
+  bot/run_backtest.py, bot/results/
+  .claude/hooks/session-start.sh, .claude/settings.json
   ```
 
 ## User Preferences
 - Profit over all — every decision optimizes for revenue
 - Solo bootstrapped — lean, scrappy, no over-engineering
-- No rush — willing to be thorough
-- CLAUDE.md rules: JS-first, functional components, YAGNI, conventional commits
-- Wants to research deeply before committing to a direction
+- Wants deep research before committing to a direction
+- JS-first for product layer, Python for ML/trading backend
+- Conventional commits, no direct push to main
