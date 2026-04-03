@@ -84,6 +84,23 @@ The user approved this execution order but we haven't started building yet:
   README.md
   ```
 
+## Session Setup (IMPORTANT)
+
+MCP servers are globally installed but need the packages present. On first session, run:
+```bash
+bash /home/user/timesfm/.claude/setup.sh
+```
+
+MCP servers use direct binary paths (not `npx -y`) to avoid cold-start download timeouts:
+- `mcp-server-sequential-thinking` (not `npx -y @modelcontextprotocol/...`)
+- `context7-mcp` (not `npx -y @upstash/context7-mcp`)
+- etc.
+
+If MCP tools are missing in a session, the packages likely need reinstalling globally:
+```bash
+npm install -g @modelcontextprotocol/server-sequential-thinking @modelcontextprotocol/server-filesystem @modelcontextprotocol/server-memory @upstash/context7-mcp@latest @playwright/mcp@latest
+```
+
 ## User Preferences
 - Profit over all — every decision optimizes for revenue
 - Solo bootstrapped — lean, scrappy, no over-engineering
