@@ -1,5 +1,6 @@
 {
   "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": ["sequential-thinking", "sqlite", "fetch"],
   "hooks": {
     "SessionStart": [
       {
@@ -11,31 +12,5 @@
         ]
       }
     ]
-  },
-  "mcpServers": {
-    "sequential-thinking": {
-      "type": "stdio",
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-sequential-thinking"
-      ]
-    },
-    "sqlite": {
-      "type": "stdio",
-      "command": "uvx",
-      "args": [
-        "mcp-server-sqlite",
-        "--db-path",
-        "/home/user/timesfm/bot/data/bot.db"
-      ]
-    },
-    "fetch": {
-      "type": "stdio",
-      "command": "uvx",
-      "args": [
-        "mcp-server-fetch"
-      ]
-    }
   }
 }
