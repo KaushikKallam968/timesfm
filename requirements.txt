@@ -1,0 +1,17 @@
+# Core ML
+numpy
+pandas
+matplotlib
+torch
+safetensors
+
+# TimesFM (install from GitHub for v2.5 API)
+timesfm @ git+https://github.com/google-research/timesfm.git
+
+# Financial data
+yfinance
+
+# Checkpoint conversion (Flax→PyTorch)
+tensorstore
+orbax-checkpoint
+gcsfs
