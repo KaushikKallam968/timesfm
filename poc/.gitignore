@@ -3,3 +3,4 @@ model_cache/
 
 # Cached stock data
 data/
+__pycache__/
