@@ -1,0 +1,25 @@
+import os
+
+ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
+POLYMARKET_API_KEY = os.environ.get("POLYMARKET_API_KEY", "")
+POLYMARKET_PRIVATE_KEY = os.environ.get("POLYMARKET_PRIVATE_KEY", "")
+DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
+
+# Edge thresholds (initial — auto-research will optimize)
+SPORTS_EDGE_THRESHOLD = 0.08
+WEATHER_EDGE_THRESHOLD = 0.10
+CORRELATION_EDGE_THRESHOLD = 0.03
+
+# Kelly criterion
+KELLY_FRACTION = 0.15
+MAX_TRADE_SIZE = 100  # dollars
+MAX_OPEN_POSITIONS = 20
+
+# Risk limits
+DAILY_LOSS_LIMIT = 150
+WEEKLY_LOSS_LIMIT = 400
+MAX_DRAWDOWN_PCT = 0.30
+
+# Backtest targets
+WIN_RATE_TARGET = 0.95
+SHARPE_TARGET = 2.0
