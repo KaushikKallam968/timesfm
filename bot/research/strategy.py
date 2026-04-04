@@ -8,7 +8,7 @@ MM_MAX_INVENTORY_PCT = 0.20
 MM_PANIC_INVENTORY_PCT = 0.30
 
 # ── Directional Parameters ────────────────────────────────────────────
-DIR_MIN_EDGE = 0.35            # 15% minimum edge for directional
+DIR_MIN_EDGE = 0.4            # 15% minimum edge for directional
 DIR_MIN_CONFIDENCE = 0.90
 DIR_MAX_DAYS_TO_RES = 3
 DIR_TRUTH_ACCURACY = 0.80
