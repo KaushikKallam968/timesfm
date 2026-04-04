@@ -1,0 +1,126 @@
+{
+  "gamma_api_latency": {
+    "endpoint": "gamma-api (market data)",
+    "requests": 10,
+    "errors": 0,
+    "latencies_ms": [
+      234.0,
+      47.0,
+      47.0,
+      47.0,
+      47.0,
+      31.0,
+      47.0,
+      63.0,
+      46.0,
+      32.0
+    ],
+    "min_ms": 31.0,
+    "max_ms": 234.0,
+    "avg_ms": 64.1,
+    "p50_ms": 47.0,
+    "p95_ms": 234.0
+  },
+  "clob_api_latency": {
+    "market": "Will Ipswich Town FC win on 2026-04-03?",
+    "token_id": "1105083382276444915020004323949788518149...",
+    "midpoint": {
+      "avg_ms": 150.1,
+      "min_ms": 140.0,
+      "max_ms": 188.0,
+      "p50_ms": 141.0
+    },
+    "orderbook": {
+      "avg_ms": 159.3,
+      "min_ms": 141.0,
+      "max_ms": 172.0,
+      "p50_ms": 157.0
+    }
+  },
+  "orderbook_depth": [
+    {
+      "question": "Spread: Shandong Taishan FC (-1.5)",
+      "best_bid": 0.01,
+      "best_ask": 0.99,
+      "spread": 0.98,
+      "spread_pct": 98.0,
+      "bid_depth_top10": 495.91,
+      "ask_depth_top10": 679.35,
+      "num_bid_levels": 14,
+      "num_ask_levels": 18
+    },
+    {
+      "question": "Will Morocco win the 2026 FIFA World Cup?",
+      "best_bid": 0.001,
+      "best_ask": 0.999,
+      "spread": 0.998,
+      "spread_pct": 99.8,
+      "bid_depth_top10": 633504.03,
+      "ask_depth_top10": 11248008.34,
+      "num_bid_levels": 14,
+      "num_ask_levels": 73
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 23\u00b0C on Apri",
+      "best_bid": 0.01,
+      "best_ask": 0.99,
+      "spread": 0.98,
+      "spread_pct": 98.0,
+      "bid_depth_top10": 520.09,
+      "ask_depth_top10": 23405.64,
+      "num_bid_levels": 6,
+      "num_ask_levels": 39
+    }
+  ],
+  "rate_limiting": {
+    "burst_requests": 20,
+    "blocked": false,
+    "status_codes": {
+      "200": 20
+    },
+    "blocked_at_request": null,
+    "avg_latency_ms": 34.4
+  },
+  "anti_arb_measures": [
+    {
+      "question": "Will Ipswich Town FC win on 2026-04-03?",
+      "order_min_size": 5,
+      "price_min_tick": 0.001,
+      "fees_enabled": false,
+      "fee_type": null,
+      "rfq_enabled": false,
+      "neg_risk": true,
+      "seconds_delay": 3
+    },
+    {
+      "question": "Spread: Shandong Taishan FC (-1.5)",
+      "order_min_size": 5,
+      "price_min_tick": 0.01,
+      "fees_enabled": true,
+      "fee_type": "sports_fees_v2",
+      "rfq_enabled": false,
+      "neg_risk": false,
+      "seconds_delay": 3
+    },
+    {
+      "question": "Will Morocco win the 2026 FIFA World Cup?",
+      "order_min_size": 5,
+      "price_min_tick": 0.001,
+      "fees_enabled": false,
+      "fee_type": null,
+      "rfq_enabled": false,
+      "neg_risk": true,
+      "seconds_delay": null
+    }
+  ],
+  "verdict": {
+    "status": "CONCERNS",
+    "issues": [
+      "Wide spreads (98.6% avg) eat into edge",
+      "Order delay detected (3s) - may prevent fast execution"
+    ],
+    "avg_latency_ms": 64.1,
+    "rate_limited": false,
+    "avg_spread_pct": 98.6
+  }
+}

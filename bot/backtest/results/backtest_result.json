@@ -1,0 +1,2639 @@
+{
+  "params": {
+    "min_edge_threshold": 0.08,
+    "kelly_multiplier": 0.25,
+    "max_trade_size": 100.0,
+    "starting_bankroll": 10000.0,
+    "fee_rate": 0.02,
+    "max_positions": 20
+  },
+  "hindsight": {
+    "total_trades": 626,
+    "total_return": 24.3826,
+    "total_return_pct": "2438.3%",
+    "final_bankroll": 253826.01,
+    "win_rate": 1.0,
+    "avg_win": 389.5,
+    "avg_loss": 0.0,
+    "profit_factor": Infinity,
+    "sharpe_equivalent": 11.27,
+    "max_drawdown": 0,
+    "avg_edge_at_entry": 0.5026,
+    "by_category": {
+      "politics": {
+        "trades": 203,
+        "wins": 203,
+        "total_pnl": 70771.54
+      },
+      "other": {
+        "trades": 240,
+        "wins": 240,
+        "total_pnl": 106032.40000000007
+      },
+      "economics": {
+        "trades": 47,
+        "wins": 47,
+        "total_pnl": 10266.979999999998
+      },
+      "tech": {
+        "trades": 9,
+        "wins": 9,
+        "total_pnl": 10242.99
+      },
+      "sports": {
+        "trades": 48,
+        "wins": 48,
+        "total_pnl": 17706.24
+      },
+      "weather": {
+        "trades": 10,
+        "wins": 10,
+        "total_pnl": 2797.88
+      },
+      "crypto": {
+        "trades": 69,
+        "wins": 69,
+        "total_pnl": 26008.039999999986
+      }
+    }
+  },
+  "accuracy_sweep": {
+    "100%": {
+      "trades": 626,
+      "total_return": 24.3826,
+      "win_rate": 1.0,
+      "max_drawdown": 0,
+      "final_bankroll": 253826.01
+    },
+    "95%": {
+      "trades": 641,
+      "total_return": 22.7728,
+      "win_rate": 0.9282,
+      "max_drawdown": 0.0053,
+      "final_bankroll": 237728.17
+    },
+    "90%": {
+      "trades": 653,
+      "total_return": 21.7982,
+      "win_rate": 0.8729,
+      "max_drawdown": 0.0053,
+      "final_bankroll": 227981.68
+    },
+    "85%": {
+      "trades": 662,
+      "total_return": 20.3865,
+      "win_rate": 0.8142,
+      "max_drawdown": 0.0091,
+      "final_bankroll": 213865.5
+    },
+    "80%": {
+      "trades": 674,
+      "total_return": 18.8603,
+      "win_rate": 0.7656,
+      "max_drawdown": 0.0209,
+      "final_bankroll": 198602.78
+    },
+    "75%": {
+      "trades": 679,
+      "total_return": 17.3532,
+      "win_rate": 0.7099,
+      "max_drawdown": 0.0209,
+      "final_bankroll": 183531.69
+    },
+    "70%": {
+      "trades": 686,
+      "total_return": 15.593,
+      "win_rate": 0.656,
+      "max_drawdown": 0.031,
+      "final_bankroll": 165930.39
+    },
+    "65%": {
+      "trades": 692,
+      "total_return": 13.5105,
+      "win_rate": 0.5939,
+      "max_drawdown": 0.0313,
+      "final_bankroll": 145105.3
+    },
+    "60%": {
+      "trades": 700,
+      "total_return": 11.7693,
+      "win_rate": 0.5214,
+      "max_drawdown": 0.0669,
+      "final_bankroll": 127692.84
+    }
+  },
+  "equity_curve": [
+    {
+      "timestamp": "",
+      "bankroll": 10000.0
+    },
+    {
+      "timestamp": "2024-01-06",
+      "bankroll": 10144.91
+    },
+    {
+      "timestamp": "2024-08-16",
+      "bankroll": 10259.83
+    },
+    {
+      "timestamp": "2024-11-03",
+      "bankroll": 10343.71
+    },
+    {
+      "timestamp": "2025-06-03",
+      "bankroll": 10389.86
+    },
+    {
+      "timestamp": "2025-09-20",
+      "bankroll": 10402.14
+    },
+    {
+      "timestamp": "2025-10-30",
+      "bankroll": 10419.19
+    },
+    {
+      "timestamp": "2024-08-16",
+      "bankroll": 10759.67
+    },
+    {
+      "timestamp": "2025-08-01",
+      "bankroll": 10770.03
+    },
+    {
+      "timestamp": "2026-01-23",
+      "bankroll": 11844.5
+    },
+    {
+      "timestamp": "2025-05-24",
+      "bankroll": 14559.4
+    },
+    {
+      "timestamp": "2024-01-05",
+      "bankroll": 14657.4
+    },
+    {
+      "timestamp": "2026-02-24",
+      "bankroll": 19206.56
+    },
+    {
+      "timestamp": "2024-08-13",
+      "bankroll": 19569.68
+    },
+    {
+      "timestamp": "2024-11-08",
+      "bankroll": 20267.68
+    },
+    {
+      "timestamp": "2024-07-19",
+      "bankroll": 20274.49
+    },
+    {
+      "timestamp": "2024-09-18",
+      "bankroll": 20282.99
+    },
+    {
+      "timestamp": "2024-01-05",
+      "bankroll": 20380.99
+    },
+    {
+      "timestamp": "2025-11-20",
+      "bankroll": 20514.28
+    },
+    {
+      "timestamp": "2025-09-18",
+      "bankroll": 20632.06
+    },
+    {
+      "timestamp": "2026-01-21",
+      "bankroll": 20819.92
+    },
+    {
+      "timestamp": "2025-04-15",
+      "bankroll": 20853.97
+    },
+    {
+      "timestamp": "2025-12-19",
+      "bankroll": 20949.99
+    },
+    {
+      "timestamp": "2025-05-27",
+      "bankroll": 21020.26
+    },
+    {
+      "timestamp": "2025-12-26",
+      "bankroll": 21188.53
+    },
+    {
+      "timestamp": "2025-06-30",
+      "bankroll": 21201.47
+    },
+    {
+      "timestamp": "2024-07-09",
+      "bankroll": 22432.8
+    },
+    {
+      "timestamp": "2025-03-12",
+      "bankroll": 22775.25
+    },
+    {
+      "timestamp": "2025-06-14",
+      "bankroll": 22824.88
+    },
+    {
+      "timestamp": "2025-04-05",
+      "bankroll": 22904.7
+    },
+    {
+      "timestamp": "2024-11-04",
+      "bankroll": 22982.71
+    },
+    {
+      "timestamp": "2024-01-05",
+      "bankroll": 23080.71
+    },
+    {
+      "timestamp": "2024-01-10",
+      "bankroll": 23178.71
+    },
+    {
+      "timestamp": "2024-12-31",
+      "bankroll": 24410.05
+    },
+    {
+      "timestamp": "2025-05-27",
+      "bankroll": 24625.51
+    },
+    {
+      "timestamp": "2024-11-07",
+      "bankroll": 24725.53
+    },
+    {
+      "timestamp": "2025-08-05",
+      "bankroll": 24788.82
+    },
+    {
+      "timestamp": "2024-07-25",
+      "bankroll": 24857.76
+    },
+    {
+      "timestamp": "2025-12-17",
+      "bankroll": 26184.33
+    },
+    {
+      "timestamp": "2026-01-11",
+      "bankroll": 26240.06
+    },
+    {
+      "timestamp": "2025-12-03",
+      "bankroll": 27676.52
+    },
+    {
+      "timestamp": "2024-11-07",
+      "bankroll": 27745.46
+    },
+    {
+      "timestamp": "2024-05-07",
+      "bankroll": 28696.09
+    },
+    {
+      "timestamp": "2024-11-08",
+      "bankroll": 28706.45
+    },
+    {
+      "timestamp": "2024-11-12",
+      "bankroll": 28806.47
+    },
+    {
+      "timestamp": "2025-11-24",
+      "bankroll": 28896.78
+    },
+    {
+      "timestamp": "2025-11-20",
+      "bankroll": 29122.65
+    },
+    {
+      "timestamp": "2024-01-29",
+      "bankroll": 33782.55
+    },
+    {
+      "timestamp": "2024-01-05",
+      "bankroll": 33880.55
+    },
+    {
+      "timestamp": "2024-11-07",
+      "bankroll": 33980.57
+    },
+    {
+      "timestamp": "2024-12-07",
+      "bankroll": 37724.73
+    },
+    {
+      "timestamp": "2025-09-13",
+      "bankroll": 37736.3
+    },
+    {
+      "timestamp": "2025-04-05",
+      "bankroll": 37816.12
+    },
+    {
+      "timestamp": "2025-06-22",
+      "bankroll": 39047.45
+    },
+    {
+      "timestamp": "2025-06-21",
+      "bankroll": 39189.35
+    },
+    {
+      "timestamp": "2024-11-14",
+      "bankroll": 43965.4
+    },
+    {
+      "timestamp": "2025-10-11",
+      "bankroll": 44220.54
+    },
+    {
+      "timestamp": "2025-01-22",
+      "bankroll": 44832.83
+    },
+    {
+      "timestamp": "2024-10-31",
+      "bankroll": 44845.51
+    },
+    {
+      "timestamp": "2025-09-09",
+      "bankroll": 44864.72
+    },
+    {
+      "timestamp": "2026-01-11",
+      "bankroll": 44895.17
+    },
+    {
+      "timestamp": "2024-11-08",
+      "bankroll": 44901.87
+    },
+    {
+      "timestamp": "2025-05-21",
+      "bankroll": 45540.61
+    },
+    {
+      "timestamp": "2024-10-09",
+      "bankroll": 45549.72
+    },
+    {
+      "timestamp": "2024-01-10",
+      "bankroll": 45647.72
+    },
+    {
+      "timestamp": "2024-02-13",
+      "bankroll": 45655.49
+    },
+    {
+      "timestamp": "2025-08-01",
+      "bankroll": 45761.82
+    },
+    {
+      "timestamp": "2025-11-20",
+      "bankroll": 45958.33
+    },
+    {
+      "timestamp": "2025-10-14",
+      "bankroll": 45973.91
+    },
+    {
+      "timestamp": "2024-11-08",
+      "bankroll": 45985.54
+    },
+    {
+      "timestamp": "2026-01-14",
+      "bankroll": 46165.23
+    },
+    {
+      "timestamp": "2025-04-12",
+      "bankroll": 46176.23
+    },
+    {
+      "timestamp": "2025-05-06",
+      "bankroll": 46763.88
+    },
+    {
+      "timestamp": "2025-04-01",
+      "bankroll": 46943.57
+    },
+    {
+      "timestamp": "2024-09-25",
+      "bankroll": 47241.57
+    },
+    {
+      "timestamp": "2024-01-10",
+      "bankroll": 47339.57
+    },
+    {
+      "timestamp": "2025-05-11",
+      "bankroll": 47348.19
+    },
+    {
+      "timestamp": "2025-11-07",
+      "bankroll": 47357.24
+    },
+    {
+      "timestamp": "2025-08-04",
+      "bankroll": 47372.89
+    },
+    {
+      "timestamp": "2024-06-29",
+      "bankroll": 47382.37
+    },
+    {
+      "timestamp": "2025-01-14",
+      "bankroll": 52158.42
+    },
+    {
+      "timestamp": "2024-11-05",
+      "bankroll": 52166.37
+    },
+    {
+      "timestamp": "2024-01-10",
+      "bankroll": 52264.37
+    },
+    {
+      "timestamp": "2024-07-19",
+      "bankroll": 52271.12
+    },
+    {
+      "timestamp": "2025-01-17",
+      "bankroll": 53169.12
+    },
+    {
+      "timestamp": "2025-05-29",
+      "bankroll": 53475.29
+    },
+    {
+      "timestamp": "2025-12-03",
+      "bankroll": 54018.45
+    },
+    {
+      "timestamp": "2026-01-24",
+      "bankroll": 54113.3
+    },
+    {
+      "timestamp": "2025-10-28",
+      "bankroll": 54419.46
+    },
+    {
+      "timestamp": "2025-01-09",
+      "bankroll": 54465.61
+    },
+    {
+      "timestamp": "2024-11-03",
+      "bankroll": 54479.22
+    },
+    {
+      "timestamp": "2024-04-02",
+      "bankroll": 54534.7
+    },
+    {
+      "timestamp": "2025-02-19",
+      "bankroll": 55020.93
+    },
+    {
+      "timestamp": "2025-05-06",
+      "bankroll": 55296.29
+    },
+    {
+      "timestamp": "2025-04-10",
+      "bankroll": 56103.38
+    },
+    {
+      "timestamp": "2025-01-21",
+      "bankroll": 56113.68
+    },
+    {
+      "timestamp": "2026-01-28",
+      "bankroll": 59933.25
+    },
+    {
+      "timestamp": "2024-10-19",
+      "bankroll": 59957.83
+    },
+    {
+      "timestamp": "2025-06-09",
+      "bankroll": 62453.23
+    },
+    {
+      "timestamp": "2025-02-14",
+      "bankroll": 62470.99
+    },
+    {
+      "timestamp": "2025-04-08",
+      "bankroll": 62483.15
+    },
+    {
+      "timestamp": "2025-08-08",
+      "bankroll": 62561.33
+    },
+    {
+      "timestamp": "2025-04-08",
+      "bankroll": 62804.16
+    },
+    {
+      "timestamp": "2025-06-25",
+      "bankroll": 63156.7
+    },
+    {
+      "timestamp": "2024-11-22",
+      "bankroll": 63768.99
+    },
+    {
+      "timestamp": "2024-07-20",
+      "bankroll": 63791.29
+    },
+    {
+      "timestamp": "2025-03-11",
+      "bankroll": 64133.73
+    },
+    {
+      "timestamp": "2024-10-23",
+      "bankroll": 65460.3
+    },
+    {
+      "timestamp": "2025-02-23",
+      "bankroll": 65628.57
+    },
+    {
+      "timestamp": "2024-02-01",
+      "bankroll": 65726.57
+    },
+    {
+      "timestamp": "2025-11-27",
+      "bankroll": 65748.8
+    },
+    {
+      "timestamp": "2025-08-04",
+      "bankroll": 65846.8
+    },
+    {
+      "timestamp": "2025-11-22",
+      "bankroll": 65857.79
+    },
+    {
+      "timestamp": "2025-08-18",
+      "bankroll": 65973.18
+    },
+    {
+      "timestamp": "2024-04-02",
+      "bankroll": 66141.45
+    },
+    {
+      "timestamp": "2025-07-31",
+      "bankroll": 66595.01
+    },
+    {
+      "timestamp": "2025-07-08",
+      "bankroll": 66628.79
+    },
+    {
+      "timestamp": "2025-04-30",
+      "bankroll": 66639.53
+    },
+    {
+      "timestamp": "2025-04-04",
+      "bankroll": 66775.62
+    },
+    {
+      "timestamp": "2024-07-28",
+      "bankroll": 66791.96
+    },
+    {
+      "timestamp": "2024-11-07",
+      "bankroll": 66936.88
+    },
+    {
+      "timestamp": "2025-08-09",
+      "bankroll": 67013.45
+    },
+    {
+      "timestamp": "2024-09-09",
+      "bankroll": 67863.83
+    },
+    {
+      "timestamp": "2026-02-05",
+      "bankroll": 67972.36
+    },
+    {
+      "timestamp": "2025-03-11",
+      "bankroll": 68192.94
+    },
+    {
+      "timestamp": "2025-12-30",
+      "bankroll": 69202.05
+    },
+    {
+      "timestamp": "2024-04-10",
+      "bankroll": 69300.05
+    },
+    {
+      "timestamp": "2024-01-10",
+      "bankroll": 69398.05
+    },
+    {
+      "timestamp": "2024-02-01",
+      "bankroll": 69496.05
+    },
+    {
+      "timestamp": "2025-03-11",
+      "bankroll": 69600.23
+    },
+    {
+      "timestamp": "2024-11-09",
+      "bankroll": 69698.23
+    },
+    {
+      "timestamp": "2024-05-01",
+      "bankroll": 70465.8
+    },
+    {
+      "timestamp": "2024-11-08",
+      "bankroll": 70634.07
+    },
+    {
+      "timestamp": "2025-03-11",
+      "bankroll": 70775.97
+    },
+    {
+      "timestamp": "2025-02-27",
+      "bankroll": 70789.58
+    },
+    {
+      "timestamp": "2024-08-11",
+      "bankroll": 70803.19
+    },
+    {
+      "timestamp": "2024-04-30",
+      "bankroll": 70999.69
+    },
+    {
+      "timestamp": "2024-09-25",
+      "bankroll": 71031.47
+    },
+    {
+      "timestamp": "2024-03-11",
+      "bankroll": 71417.28
+    },
+    {
+      "timestamp": "2024-02-01",
+      "bankroll": 71515.28
+    },
+    {
+      "timestamp": "2025-09-16",
+      "bankroll": 71535.23
+    },
+    {
+      "timestamp": "2025-01-21",
+      "bankroll": 71579.21
+    },
+    {
+      "timestamp": "2025-11-22",
+      "bankroll": 71603.8
+    },
+    {
+      "timestamp": "2025-08-30",
+      "bankroll": 71635.13
+    },
+    {
+      "timestamp": "2024-07-24",
+      "bankroll": 71681.28
+    },
+    {
+      "timestamp": "2024-12-23",
+      "bankroll": 71694.35
+    },
+    {
+      "timestamp": "2024-09-23",
+      "bankroll": 71748.6
+    },
+    {
+      "timestamp": "2025-08-23",
+      "bankroll": 72979.94
+    },
+    {
+      "timestamp": "2025-08-15",
+      "bankroll": 72999.15
+    },
+    {
+      "timestamp": "2026-01-26",
+      "bankroll": 73051.47
+    },
+    {
+      "timestamp": "2025-01-02",
+      "bankroll": 77494.92
+    },
+    {
+      "timestamp": "2025-05-22",
+      "bankroll": 78726.26
+    },
+    {
+      "timestamp": "2025-03-12",
+      "bankroll": 78856.82
+    },
+    {
+      "timestamp": "2025-01-28",
+      "bankroll": 78969.87
+    },
+    {
+      "timestamp": "2025-06-13",
+      "bankroll": 79260.03
+    },
+    {
+      "timestamp": "2024-12-21",
+      "bankroll": 79280.88
+    },
+    {
+      "timestamp": "2025-01-16",
+      "bankroll": 79378.88
+    },
+    {
+      "timestamp": "2024-09-25",
+      "bankroll": 80146.44
+    },
+    {
+      "timestamp": "2025-01-03",
+      "bankroll": 80207.04
+    },
+    {
+      "timestamp": "2025-01-03",
+      "bankroll": 80275.98
+    },
+    {
+      "timestamp": "2025-02-17",
+      "bankroll": 80447.96
+    },
+    {
+      "timestamp": "2026-01-14",
+      "bankroll": 80509.89
+    },
+    {
+      "timestamp": "2024-11-29",
+      "bankroll": 83392.97
+    },
+    {
+      "timestamp": "2024-09-15",
+      "bankroll": 83488.98
+    },
+    {
+      "timestamp": "2025-12-07",
+      "bankroll": 85053.65
+    },
+    {
+      "timestamp": "2026-03-02",
+      "bankroll": 85464.47
+    },
+    {
+      "timestamp": "2024-08-03",
+      "bankroll": 85726.11
+    },
+    {
+      "timestamp": "2025-01-21",
+      "bankroll": 85851.38
+    },
+    {
+      "timestamp": "2025-01-28",
+      "bankroll": 85964.43
+    },
+    {
+      "timestamp": "2024-08-14",
+      "bankroll": 86662.43
+    },
+    {
+      "timestamp": "2024-09-18",
+      "bankroll": 86673.43
+    },
+    {
+      "timestamp": "2024-04-08",
+      "bankroll": 87036.55
+    },
+    {
+      "timestamp": "2024-10-28",
+      "bankroll": 87043.36
+    },
+    {
+      "timestamp": "2025-01-23",
+      "bankroll": 87065.58
+    },
+    {
+      "timestamp": "2025-01-29",
+      "bankroll": 87159.47
+    },
+    {
+      "timestamp": "2025-10-02",
+      "bankroll": 91935.52
+    },
+    {
+      "timestamp": "2024-08-13",
+      "bankroll": 92374.06
+    },
+    {
+      "timestamp": "2025-08-04",
+      "bankroll": 92397.06
+    },
+    {
+      "timestamp": "2025-11-22",
+      "bankroll": 92406.79
+    },
+    {
+      "timestamp": "2024-08-03",
+      "bankroll": 92419.08
+    },
+    {
+      "timestamp": "2024-07-07",
+      "bankroll": 92563.99
+    },
+    {
+      "timestamp": "2025-08-04",
+      "bankroll": 92664.01
+    },
+    {
+      "timestamp": "2025-10-27",
+      "bankroll": 92889.88
+    },
+    {
+      "timestamp": "2025-01-03",
+      "bankroll": 92901.52
+    },
+    {
+      "timestamp": "2024-08-16",
+      "bankroll": 93014.57
+    },
+    {
+      "timestamp": "2025-09-03",
+      "bankroll": 93289.93
+    },
+    {
+      "timestamp": "2025-02-27",
+      "bankroll": 93314.51
+    },
+    {
+      "timestamp": "2025-11-30",
+      "bankroll": 97757.96
+    },
+    {
+      "timestamp": "2025-08-19",
+      "bankroll": 97772.92
+    },
+    {
+      "timestamp": "2024-09-17",
+      "bankroll": 98555.88
+    },
+    {
+      "timestamp": "2024-09-20",
+      "bankroll": 98573.64
+    },
+    {
+      "timestamp": "2025-01-06",
+      "bankroll": 98581.35
+    },
+    {
+      "timestamp": "2026-02-13",
+      "bankroll": 101296.25
+    },
+    {
+      "timestamp": "2025-09-03",
+      "bankroll": 101860.92
+    },
+    {
+      "timestamp": "2024-11-28",
+      "bankroll": 101960.94
+    },
+    {
+      "timestamp": "2025-04-24",
+      "bankroll": 101975.96
+    },
+    {
+      "timestamp": "2025-11-16",
+      "bankroll": 101984.52
+    },
+    {
+      "timestamp": "2025-10-28",
+      "bankroll": 102015.41
+    },
+    {
+      "timestamp": "2025-08-22",
+      "bankroll": 103341.98
+    },
+    {
+      "timestamp": "2024-08-07",
+      "bankroll": 103353.62
+    },
+    {
+      "timestamp": "2024-05-06",
+      "bankroll": 105069.8
+    },
+    {
+      "timestamp": "2025-10-07",
+      "bankroll": 105682.09
+    },
+    {
+      "timestamp": "2025-08-04",
+      "bankroll": 105782.11
+    },
+    {
+      "timestamp": "2025-05-21",
+      "bankroll": 106480.11
+    },
+    {
+      "timestamp": "2025-11-13",
+      "bankroll": 106722.94
+    },
+    {
+      "timestamp": "2026-01-15",
+      "bankroll": 106928.63
+    },
+    {
+      "timestamp": "2024-04-25",
+      "bankroll": 107086.37
+    },
+    {
+      "timestamp": "2025-03-09",
+      "bankroll": 107096.92
+    },
+    {
+      "timestamp": "2024-07-14",
+      "bankroll": 111342.74
+    },
+    {
+      "timestamp": "2024-07-26",
+      "bankroll": 111419.48
+    },
+    {
+      "timestamp": "2025-04-05",
+      "bankroll": 111499.29
+    },
+    {
+      "timestamp": "2024-08-09",
+      "bankroll": 111529.74
+    },
+    {
+      "timestamp": "2023-12-02",
+      "bankroll": 111668.71
+    },
+    {
+      "timestamp": "2024-04-06",
+      "bankroll": 111856.56
+    },
+    {
+      "timestamp": "2024-09-18",
+      "bankroll": 111868.2
+    },
+    {
+      "timestamp": "2024-04-25",
+      "bankroll": 112040.17
+    },
+    {
+      "timestamp": "2026-03-09",
+      "bankroll": 112047.46
+    },
+    {
+      "timestamp": "2024-11-23",
+      "bankroll": 112054.39
+    },
+    {
+      "timestamp": "2025-04-10",
+      "bankroll": 112070.74
+    },
+    {
+      "timestamp": "2024-11-28",
+      "bankroll": 112367.14
+    },
+    {
+      "timestamp": "2026-01-15",
+      "bankroll": 112500.44
+    },
+    {
+      "timestamp": "2026-01-19",
+      "bankroll": 112775.8
+    },
+    {
+      "timestamp": "2025-01-17",
+      "bankroll": 112807.84
+    },
+    {
+      "timestamp": "2026-03-02",
+      "bankroll": 113033.71
+    },
+    {
+      "timestamp": "2025-05-02",
+      "bankroll": 113047.12
+    },
+    {
+      "timestamp": "2025-08-04",
+      "bankroll": 113143.14
+    },
+    {
+      "timestamp": "2025-06-20",
+      "bankroll": 113206.43
+    },
+    {
+      "timestamp": "2024-09-23",
+      "bankroll": 113240.02
+    },
+    {
+      "timestamp": "2024-10-19",
+      "bankroll": 115436.87
+    },
+    {
+      "timestamp": "2026-01-11",
+      "bankroll": 115459.1
+    },
+    {
+      "timestamp": "2024-09-15",
+      "bankroll": 115474.19
+    },
+    {
+      "timestamp": "2025-11-10",
+      "bankroll": 115521.45
+    },
+    {
+      "timestamp": "2025-01-30",
+      "bankroll": 115548.48
+    },
+    {
+      "timestamp": "2025-01-08",
+      "bankroll": 120208.38
+    },
+    {
+      "timestamp": "2025-05-17",
+      "bankroll": 120227.01
+    },
+    {
+      "timestamp": "2025-04-07",
+      "bankroll": 120414.87
+    },
+    {
+      "timestamp": "2024-07-05",
+      "bankroll": 120441.48
+    },
+    {
+      "timestamp": "2025-10-11",
+      "bankroll": 120468.52
+    },
+    {
+      "timestamp": "2025-03-18",
+      "bankroll": 120518.03
+    },
+    {
+      "timestamp": "2026-02-08",
+      "bankroll": 120635.81
+    },
+    {
+      "timestamp": "2024-07-19",
+      "bankroll": 120654.66
+    },
+    {
+      "timestamp": "2025-10-25",
+      "bankroll": 120711.64
+    },
+    {
+      "timestamp": "2025-12-18",
+      "bankroll": 125487.69
+    },
+    {
+      "timestamp": "2024-10-21",
+      "bankroll": 125503.33
+    },
+    {
+      "timestamp": "2024-12-23",
+      "bankroll": 125518.29
+    },
+    {
+      "timestamp": "2024-08-30",
+      "bankroll": 125528.03
+    },
+    {
+      "timestamp": "2025-07-04",
+      "bankroll": 125870.47
+    },
+    {
+      "timestamp": "2024-08-16",
+      "bankroll": 126176.63
+    },
+    {
+      "timestamp": "2025-06-06",
+      "bankroll": 126195.04
+    },
+    {
+      "timestamp": "2025-09-11",
+      "bankroll": 126537.49
+    },
+    {
+      "timestamp": "2025-04-07",
+      "bankroll": 126780.31
+    },
+    {
+      "timestamp": "2024-07-23",
+      "bankroll": 126821.17
+    },
+    {
+      "timestamp": "2025-06-18",
+      "bankroll": 126982.33
+    },
+    {
+      "timestamp": "2026-01-02",
+      "bankroll": 128698.51
+    },
+    {
+      "timestamp": "2024-07-26",
+      "bankroll": 130134.97
+    },
+    {
+      "timestamp": "2024-09-27",
+      "bankroll": 131144.08
+    },
+    {
+      "timestamp": "2024-10-09",
+      "bankroll": 131159.73
+    },
+    {
+      "timestamp": "2025-12-03",
+      "bankroll": 131225.8
+    },
+    {
+      "timestamp": "2024-12-17",
+      "bankroll": 131515.96
+    },
+    {
+      "timestamp": "2026-01-18",
+      "bankroll": 131611.98
+    },
+    {
+      "timestamp": "2025-09-19",
+      "bankroll": 132176.64
+    },
+    {
+      "timestamp": "2025-06-27",
+      "bankroll": 132186.37
+    },
+    {
+      "timestamp": "2025-10-15",
+      "bankroll": 132228.26
+    },
+    {
+      "timestamp": "2024-09-25",
+      "bankroll": 132433.95
+    },
+    {
+      "timestamp": "2025-03-12",
+      "bankroll": 132526.13
+    },
+    {
+      "timestamp": "2025-06-06",
+      "bankroll": 132552.17
+    },
+    {
+      "timestamp": "2024-09-08",
+      "bankroll": 132592.01
+    },
+    {
+      "timestamp": "2025-10-22",
+      "bankroll": 133156.68
+    },
+    {
+      "timestamp": "2026-03-26",
+      "bankroll": 133714.74
+    },
+    {
+      "timestamp": "2026-02-21",
+      "bankroll": 133791.31
+    },
+    {
+      "timestamp": "2024-11-14",
+      "bankroll": 134558.88
+    },
+    {
+      "timestamp": "2025-08-04",
+      "bankroll": 134658.9
+    },
+    {
+      "timestamp": "2025-04-29",
+      "bankroll": 134676.16
+    },
+    {
+      "timestamp": "2025-02-12",
+      "bankroll": 134815.12
+    },
+    {
+      "timestamp": "2025-08-14",
+      "bankroll": 134976.28
+    },
+    {
+      "timestamp": "2024-11-18",
+      "bankroll": 135309.07
+    },
+    {
+      "timestamp": "2026-01-20",
+      "bankroll": 135413.25
+    },
+    {
+      "timestamp": "2025-04-10",
+      "bankroll": 135430.09
+    },
+    {
+      "timestamp": "2024-10-25",
+      "bankroll": 135515.0
+    },
+    {
+      "timestamp": "2026-01-18",
+      "bankroll": 135757.83
+    },
+    {
+      "timestamp": "2025-11-09",
+      "bankroll": 135926.47
+    },
+    {
+      "timestamp": "2025-01-15",
+      "bankroll": 136491.13
+    },
+    {
+      "timestamp": "2025-12-25",
+      "bankroll": 136876.94
+    },
+    {
+      "timestamp": "2025-12-17",
+      "bankroll": 140856.57
+    },
+    {
+      "timestamp": "2024-11-28",
+      "bankroll": 141120.2
+    },
+    {
+      "timestamp": "2025-05-18",
+      "bankroll": 141141.81
+    },
+    {
+      "timestamp": "2025-11-13",
+      "bankroll": 141431.97
+    },
+    {
+      "timestamp": "2024-12-31",
+      "bankroll": 141454.19
+    },
+    {
+      "timestamp": "2025-11-19",
+      "bankroll": 141650.7
+    },
+    {
+      "timestamp": "2026-03-09",
+      "bankroll": 141685.31
+    },
+    {
+      "timestamp": "2024-09-02",
+      "bankroll": 141720.3
+    },
+    {
+      "timestamp": "2024-03-13",
+      "bankroll": 141734.58
+    },
+    {
+      "timestamp": "2025-11-14",
+      "bankroll": 141965.91
+    },
+    {
+      "timestamp": "2024-04-25",
+      "bankroll": 142078.96
+    },
+    {
+      "timestamp": "2025-12-23",
+      "bankroll": 145101.96
+    },
+    {
+      "timestamp": "2026-01-25",
+      "bankroll": 145141.31
+    },
+    {
+      "timestamp": "2025-12-27",
+      "bankroll": 145753.59
+    },
+    {
+      "timestamp": "2024-09-27",
+      "bankroll": 145821.08
+    },
+    {
+      "timestamp": "2025-10-11",
+      "bankroll": 145982.24
+    },
+    {
+      "timestamp": "2026-01-07",
+      "bankroll": 145992.6
+    },
+    {
+      "timestamp": "2025-06-22",
+      "bankroll": 146013.98
+    },
+    {
+      "timestamp": "2025-04-07",
+      "bankroll": 146424.8
+    },
+    {
+      "timestamp": "2025-08-26",
+      "bankroll": 146894.23
+    },
+    {
+      "timestamp": "2024-07-05",
+      "bankroll": 146906.52
+    },
+    {
+      "timestamp": "2026-01-14",
+      "bankroll": 146914.34
+    },
+    {
+      "timestamp": "2025-05-01",
+      "bankroll": 147175.98
+    },
+    {
+      "timestamp": "2024-02-26",
+      "bankroll": 148026.36
+    },
+    {
+      "timestamp": "2025-10-31",
+      "bankroll": 148238.33
+    },
+    {
+      "timestamp": "2025-07-11",
+      "bankroll": 148282.64
+    },
+    {
+      "timestamp": "2025-01-21",
+      "bankroll": 148319.43
+    },
+    {
+      "timestamp": "2023-01-11",
+      "bankroll": 148602.05
+    },
+    {
+      "timestamp": "2025-04-27",
+      "bankroll": 148724.77
+    },
+    {
+      "timestamp": "2025-04-03",
+      "bankroll": 148822.77
+    },
+    {
+      "timestamp": "2024-02-01",
+      "bankroll": 148920.77
+    },
+    {
+      "timestamp": "2025-04-05",
+      "bankroll": 149000.58
+    },
+    {
+      "timestamp": "2025-01-01",
+      "bankroll": 149221.17
+    },
+    {
+      "timestamp": "2025-10-14",
+      "bankroll": 149230.28
+    },
+    {
+      "timestamp": "2025-12-21",
+      "bankroll": 149381.44
+    },
+    {
+      "timestamp": "2025-08-30",
+      "bankroll": 149412.77
+    },
+    {
+      "timestamp": "2026-03-05",
+      "bankroll": 149497.69
+    },
+    {
+      "timestamp": "2024-03-08",
+      "bankroll": 149595.69
+    },
+    {
+      "timestamp": "2024-10-20",
+      "bankroll": 149611.68
+    },
+    {
+      "timestamp": "2024-12-18",
+      "bankroll": 149625.29
+    },
+    {
+      "timestamp": "2026-02-12",
+      "bankroll": 149685.89
+    },
+    {
+      "timestamp": "2025-04-09",
+      "bankroll": 150208.89
+    },
+    {
+      "timestamp": "2026-01-09",
+      "bankroll": 150251.82
+    },
+    {
+      "timestamp": "2026-01-29",
+      "bankroll": 151058.91
+    },
+    {
+      "timestamp": "2025-05-08",
+      "bankroll": 151102.9
+    },
+    {
+      "timestamp": "2026-01-11",
+      "bankroll": 151136.03
+    },
+    {
+      "timestamp": "2024-01-10",
+      "bankroll": 151234.03
+    },
+    {
+      "timestamp": "2025-01-23",
+      "bankroll": 151318.43
+    },
+    {
+      "timestamp": "2025-08-28",
+      "bankroll": 151372.68
+    },
+    {
+      "timestamp": "2026-01-15",
+      "bankroll": 151425.71
+    },
+    {
+      "timestamp": "2026-02-16",
+      "bankroll": 151510.63
+    },
+    {
+      "timestamp": "2025-04-03",
+      "bankroll": 151517.33
+    },
+    {
+      "timestamp": "2025-10-25",
+      "bankroll": 151579.26
+    },
+    {
+      "timestamp": "2024-11-28",
+      "bankroll": 151679.28
+    },
+    {
+      "timestamp": "2024-10-30",
+      "bankroll": 151691.7
+    },
+    {
+      "timestamp": "2025-08-30",
+      "bankroll": 151722.15
+    },
+    {
+      "timestamp": "2024-12-04",
+      "bankroll": 151983.78
+    },
+    {
+      "timestamp": "2024-09-24",
+      "bankroll": 152189.48
+    },
+    {
+      "timestamp": "2025-10-08",
+      "bankroll": 154309.7
+    },
+    {
+      "timestamp": "2026-01-05",
+      "bankroll": 154448.66
+    },
+    {
+      "timestamp": "2024-12-03",
+      "bankroll": 154566.44
+    },
+    {
+      "timestamp": "2025-01-18",
+      "bankroll": 154580.72
+    },
+    {
+      "timestamp": "2024-09-26",
+      "bankroll": 154684.91
+    },
+    {
+      "timestamp": "2025-03-27",
+      "bankroll": 154786.37
+    },
+    {
+      "timestamp": "2024-09-18",
+      "bankroll": 154899.42
+    },
+    {
+      "timestamp": "2024-08-02",
+      "bankroll": 154979.24
+    },
+    {
+      "timestamp": "2024-09-29",
+      "bankroll": 155043.9
+    },
+    {
+      "timestamp": "2024-04-04",
+      "bankroll": 155098.15
+    },
+    {
+      "timestamp": "2025-11-10",
+      "bankroll": 155171.59
+    },
+    {
+      "timestamp": "2025-12-17",
+      "bankroll": 155714.75
+    },
+    {
+      "timestamp": "2024-10-09",
+      "bankroll": 155721.45
+    },
+    {
+      "timestamp": "2026-01-09",
+      "bankroll": 155875.86
+    },
+    {
+      "timestamp": "2025-11-08",
+      "bankroll": 156030.27
+    },
+    {
+      "timestamp": "2025-01-29",
+      "bankroll": 156082.12
+    },
+    {
+      "timestamp": "2026-03-10",
+      "bankroll": 156137.6
+    },
+    {
+      "timestamp": "2025-11-05",
+      "bankroll": 156265.48
+    },
+    {
+      "timestamp": "2025-12-04",
+      "bankroll": 156963.48
+    },
+    {
+      "timestamp": "2024-12-27",
+      "bankroll": 157020.21
+    },
+    {
+      "timestamp": "2026-02-26",
+      "bankroll": 157718.21
+    },
+    {
+      "timestamp": "2024-11-28",
+      "bankroll": 157818.23
+    },
+    {
+      "timestamp": "2025-06-27",
+      "bankroll": 157838.93
+    },
+    {
+      "timestamp": "2025-05-19",
+      "bankroll": 157856.91
+    },
+    {
+      "timestamp": "2025-11-23",
+      "bankroll": 158071.86
+    },
+    {
+      "timestamp": "2025-01-22",
+      "bankroll": 158251.55
+    },
+    {
+      "timestamp": "2024-11-22",
+      "bankroll": 158340.03
+    },
+    {
+      "timestamp": "2025-09-07",
+      "bankroll": 158654.7
+    },
+    {
+      "timestamp": "2026-03-09",
+      "bankroll": 159422.26
+    },
+    {
+      "timestamp": "2024-08-18",
+      "bankroll": 159449.3
+    },
+    {
+      "timestamp": "2026-01-06",
+      "bankroll": 159633.01
+    },
+    {
+      "timestamp": "2024-08-15",
+      "bankroll": 159812.7
+    },
+    {
+      "timestamp": "2026-03-09",
+      "bankroll": 160055.53
+    },
+    {
+      "timestamp": "2025-12-19",
+      "bankroll": 162306.47
+    },
+    {
+      "timestamp": "2025-11-30",
+      "bankroll": 162527.05
+    },
+    {
+      "timestamp": "2026-02-07",
+      "bankroll": 162699.02
+    },
+    {
+      "timestamp": "2025-11-07",
+      "bankroll": 163847.02
+    },
+    {
+      "timestamp": "2025-09-01",
+      "bankroll": 164253.93
+    },
+    {
+      "timestamp": "2025-04-05",
+      "bankroll": 164333.75
+    },
+    {
+      "timestamp": "2025-12-14",
+      "bankroll": 168398.41
+    },
+    {
+      "timestamp": "2024-09-23",
+      "bankroll": 168463.92
+    },
+    {
+      "timestamp": "2025-01-16",
+      "bankroll": 168561.92
+    },
+    {
+      "timestamp": "2024-12-23",
+      "bankroll": 168570.05
+    },
+    {
+      "timestamp": "2025-11-17",
+      "bankroll": 168641.96
+    },
+    {
+      "timestamp": "2024-12-18",
+      "bankroll": 168763.43
+    },
+    {
+      "timestamp": "2026-01-11",
+      "bankroll": 168888.7
+    },
+    {
+      "timestamp": "2024-11-15",
+      "bankroll": 168945.43
+    },
+    {
+      "timestamp": "2025-10-31",
+      "bankroll": 169896.06
+    },
+    {
+      "timestamp": "2026-02-13",
+      "bankroll": 169992.08
+    },
+    {
+      "timestamp": "2026-02-20",
+      "bankroll": 170043.93
+    },
+    {
+      "timestamp": "2025-12-31",
+      "bankroll": 170054.29
+    },
+    {
+      "timestamp": "2024-10-25",
+      "bankroll": 170080.49
+    },
+    {
+      "timestamp": "2025-08-31",
+      "bankroll": 170094.1
+    },
+    {
+      "timestamp": "2024-08-09",
+      "bankroll": 170117.88
+    },
+    {
+      "timestamp": "2024-11-25",
+      "bankroll": 174097.52
+    },
+    {
+      "timestamp": "2025-08-23",
+      "bankroll": 174162.18
+    },
+    {
+      "timestamp": "2024-08-14",
+      "bankroll": 174177.83
+    },
+    {
+      "timestamp": "2025-01-15",
+      "bankroll": 174664.07
+    },
+    {
+      "timestamp": "2024-01-14",
+      "bankroll": 175990.64
+    },
+    {
+      "timestamp": "2026-02-01",
+      "bankroll": 176110.86
+    },
+    {
+      "timestamp": "2025-11-30",
+      "bankroll": 176244.15
+    },
+    {
+      "timestamp": "2025-07-28",
+      "bankroll": 176370.2
+    },
+    {
+      "timestamp": "2025-08-04",
+      "bankroll": 176383.15
+    },
+    {
+      "timestamp": "2024-09-12",
+      "bankroll": 176522.11
+    },
+    {
+      "timestamp": "2025-06-26",
+      "bankroll": 176557.1
+    },
+    {
+      "timestamp": "2025-12-29",
+      "bankroll": 176855.1
+    },
+    {
+      "timestamp": "2025-10-14",
+      "bankroll": 176901.24
+    },
+    {
+      "timestamp": "2024-12-08",
+      "bankroll": 176921.27
+    },
+    {
+      "timestamp": "2024-11-24",
+      "bankroll": 176987.34
+    },
+    {
+      "timestamp": "2025-05-03",
+      "bankroll": 177047.94
+    },
+    {
+      "timestamp": "2025-08-11",
+      "bankroll": 177098.96
+    },
+    {
+      "timestamp": "2024-10-06",
+      "bankroll": 177112.63
+    },
+    {
+      "timestamp": "2026-03-02",
+      "bankroll": 177228.03
+    },
+    {
+      "timestamp": "2025-05-26",
+      "bankroll": 177295.52
+    },
+    {
+      "timestamp": "2025-08-09",
+      "bankroll": 177538.34
+    },
+    {
+      "timestamp": "2025-01-07",
+      "bankroll": 178345.44
+    },
+    {
+      "timestamp": "2026-02-06",
+      "bankroll": 178425.92
+    },
+    {
+      "timestamp": "2025-02-13",
+      "bankroll": 178651.79
+    },
+    {
+      "timestamp": "2026-02-12",
+      "bankroll": 178723.7
+    },
+    {
+      "timestamp": "2024-07-16",
+      "bankroll": 178736.44
+    },
+    {
+      "timestamp": "2024-10-28",
+      "bankroll": 178790.09
+    },
+    {
+      "timestamp": "2025-11-06",
+      "bankroll": 178797.56
+    },
+    {
+      "timestamp": "2025-04-30",
+      "bankroll": 178854.03
+    },
+    {
+      "timestamp": "2025-08-30",
+      "bankroll": 178884.48
+    },
+    {
+      "timestamp": "2025-07-23",
+      "bankroll": 179159.84
+    },
+    {
+      "timestamp": "2025-04-29",
+      "bankroll": 179196.73
+    },
+    {
+      "timestamp": "2025-01-23",
+      "bankroll": 179296.75
+    },
+    {
+      "timestamp": "2024-11-07",
+      "bankroll": 179334.32
+    },
+    {
+      "timestamp": "2025-09-01",
+      "bankroll": 179803.75
+    },
+    {
+      "timestamp": "2025-12-30",
+      "bankroll": 179894.06
+    },
+    {
+      "timestamp": "2025-03-20",
+      "bankroll": 180680.94
+    },
+    {
+      "timestamp": "2024-06-06",
+      "bankroll": 180700.16
+    },
+    {
+      "timestamp": "2024-09-19",
+      "bankroll": 180990.31
+    },
+    {
+      "timestamp": "2024-07-27",
+      "bankroll": 181003.06
+    },
+    {
+      "timestamp": "2026-01-17",
+      "bankroll": 181147.97
+    },
+    {
+      "timestamp": "2024-09-26",
+      "bankroll": 181156.47
+    },
+    {
+      "timestamp": "2025-12-02",
+      "bankroll": 181186.92
+    },
+    {
+      "timestamp": "2025-12-22",
+      "bankroll": 181462.28
+    },
+    {
+      "timestamp": "2024-12-17",
+      "bankroll": 182693.61
+    },
+    {
+      "timestamp": "2026-01-23",
+      "bankroll": 182702.72
+    },
+    {
+      "timestamp": "2025-12-10",
+      "bankroll": 182825.44
+    },
+    {
+      "timestamp": "2026-01-15",
+      "bankroll": 182866.3
+    },
+    {
+      "timestamp": "2025-05-11",
+      "bankroll": 183180.97
+    },
+    {
+      "timestamp": "2025-05-07",
+      "bankroll": 184255.44
+    },
+    {
+      "timestamp": "2026-01-24",
+      "bankroll": 184282.47
+    },
+    {
+      "timestamp": "2024-11-15",
+      "bankroll": 184360.65
+    },
+    {
+      "timestamp": "2025-04-28",
+      "bankroll": 185369.76
+    },
+    {
+      "timestamp": "2025-10-11",
+      "bankroll": 185447.94
+    },
+    {
+      "timestamp": "2024-06-07",
+      "bankroll": 188982.3
+    },
+    {
+      "timestamp": "2025-09-20",
+      "bankroll": 192584.01
+    },
+    {
+      "timestamp": "2025-02-02",
+      "bankroll": 192620.13
+    },
+    {
+      "timestamp": "2025-02-18",
+      "bankroll": 193089.56
+    },
+    {
+      "timestamp": "2026-02-09",
+      "bankroll": 193142.6
+    },
+    {
+      "timestamp": "2024-08-30",
+      "bankroll": 193210.09
+    },
+    {
+      "timestamp": "2025-11-04",
+      "bankroll": 193374.75
+    },
+    {
+      "timestamp": "2025-12-07",
+      "bankroll": 193529.16
+    },
+    {
+      "timestamp": "2024-04-04",
+      "bankroll": 193584.64
+    },
+    {
+      "timestamp": "2024-11-02",
+      "bankroll": 193600.29
+    },
+    {
+      "timestamp": "2025-10-13",
+      "bankroll": 193837.27
+    },
+    {
+      "timestamp": "2026-01-29",
+      "bankroll": 198497.18
+    },
+    {
+      "timestamp": "2025-04-09",
+      "bankroll": 198685.03
+    },
+    {
+      "timestamp": "2025-11-14",
+      "bankroll": 198798.09
+    },
+    {
+      "timestamp": "2026-03-09",
+      "bankroll": 200696.09
+    },
+    {
+      "timestamp": "2024-09-27",
+      "bankroll": 200765.03
+    },
+    {
+      "timestamp": "2024-01-26",
+      "bankroll": 200782.08
+    },
+    {
+      "timestamp": "2024-09-12",
+      "bankroll": 201732.71
+    },
+    {
+      "timestamp": "2025-09-19",
+      "bankroll": 202500.27
+    },
+    {
+      "timestamp": "2026-02-14",
+      "bankroll": 202863.39
+    },
+    {
+      "timestamp": "2026-01-28",
+      "bankroll": 202882.6
+    },
+    {
+      "timestamp": "2025-01-15",
+      "bankroll": 202889.3
+    },
+    {
+      "timestamp": "2025-09-04",
+      "bankroll": 203222.08
+    },
+    {
+      "timestamp": "2026-02-18",
+      "bankroll": 203337.47
+    },
+    {
+      "timestamp": "2026-01-22",
+      "bankroll": 203563.34
+    },
+    {
+      "timestamp": "2026-01-16",
+      "bankroll": 203667.52
+    },
+    {
+      "timestamp": "2022-12-16",
+      "bankroll": 203868.56
+    },
+    {
+      "timestamp": "2025-12-29",
+      "bankroll": 204403.5
+    },
+    {
+      "timestamp": "2026-03-09",
+      "bankroll": 204437.55
+    },
+    {
+      "timestamp": "2026-01-13",
+      "bankroll": 204491.8
+    },
+    {
+      "timestamp": "2025-05-08",
+      "bankroll": 207615.61
+    },
+    {
+      "timestamp": "2025-05-17",
+      "bankroll": 207667.45
+    },
+    {
+      "timestamp": "2025-10-12",
+      "bankroll": 207792.73
+    },
+    {
+      "timestamp": "2025-04-01",
+      "bankroll": 207884.9
+    },
+    {
+      "timestamp": "2024-07-17",
+      "bankroll": 207911.03
+    },
+    {
+      "timestamp": "2024-03-08",
+      "bankroll": 208009.03
+    },
+    {
+      "timestamp": "2026-01-14",
+      "bankroll": 208224.49
+    },
+    {
+      "timestamp": "2024-02-13",
+      "bankroll": 212566.93
+    },
+    {
+      "timestamp": "2024-10-08",
+      "bankroll": 212580.47
+    },
+    {
+      "timestamp": "2025-01-20",
+      "bankroll": 212600.27
+    },
+    {
+      "timestamp": "2025-10-14",
+      "bankroll": 212609.38
+    },
+    {
+      "timestamp": "2025-12-09",
+      "bankroll": 212810.41
+    },
+    {
+      "timestamp": "2024-11-05",
+      "bankroll": 213577.98
+    },
+    {
+      "timestamp": "2026-02-13",
+      "bankroll": 213686.51
+    },
+    {
+      "timestamp": "2026-02-02",
+      "bankroll": 213744.51
+    },
+    {
+      "timestamp": "2025-03-11",
+      "bankroll": 213981.49
+    },
+    {
+      "timestamp": "2024-10-17",
+      "bankroll": 213988.72
+    },
+    {
+      "timestamp": "2024-12-26",
+      "bankroll": 214655.95
+    },
+    {
+      "timestamp": "2024-12-17",
+      "bankroll": 214670.23
+    },
+    {
+      "timestamp": "2026-01-20",
+      "bankroll": 214871.26
+    },
+    {
+      "timestamp": "2024-11-28",
+      "bankroll": 215081.76
+    },
+    {
+      "timestamp": "2024-08-20",
+      "bankroll": 216408.33
+    },
+    {
+      "timestamp": "2024-04-28",
+      "bankroll": 216432.83
+    },
+    {
+      "timestamp": "2024-04-22",
+      "bankroll": 216584.0
+    },
+    {
+      "timestamp": "2025-05-30",
+      "bankroll": 216741.74
+    },
+    {
+      "timestamp": "2024-12-07",
+      "bankroll": 216759.5
+    },
+    {
+      "timestamp": "2026-01-12",
+      "bankroll": 216828.44
+    },
+    {
+      "timestamp": "2025-09-29",
+      "bankroll": 216851.44
+    },
+    {
+      "timestamp": "2025-12-27",
+      "bankroll": 218299.83
+    },
+    {
+      "timestamp": "2025-05-11",
+      "bankroll": 219067.39
+    },
+    {
+      "timestamp": "2024-01-11",
+      "bankroll": 219074.09
+    },
+    {
+      "timestamp": "2025-10-12",
+      "bankroll": 219138.61
+    },
+    {
+      "timestamp": "2026-01-04",
+      "bankroll": 219160.84
+    },
+    {
+      "timestamp": "2026-01-25",
+      "bankroll": 219216.32
+    },
+    {
+      "timestamp": "2025-04-14",
+      "bankroll": 219720.38
+    },
+    {
+      "timestamp": "2025-07-22",
+      "bankroll": 219930.88
+    },
+    {
+      "timestamp": "2026-01-03",
+      "bankroll": 220118.73
+    },
+    {
+      "timestamp": "2025-06-18",
+      "bankroll": 220182.02
+    },
+    {
+      "timestamp": "2024-12-04",
+      "bankroll": 220237.5
+    },
+    {
+      "timestamp": "2024-02-28",
+      "bankroll": 220315.68
+    },
+    {
+      "timestamp": "2024-01-14",
+      "bankroll": 220332.73
+    },
+    {
+      "timestamp": "2025-09-12",
+      "bankroll": 220353.43
+    },
+    {
+      "timestamp": "2025-11-19",
+      "bankroll": 220398.49
+    },
+    {
+      "timestamp": "2024-12-30",
+      "bankroll": 220413.45
+    },
+    {
+      "timestamp": "2024-10-08",
+      "bankroll": 220444.07
+    },
+    {
+      "timestamp": "2025-06-26",
+      "bankroll": 220476.3
+    },
+    {
+      "timestamp": "2024-11-06",
+      "bankroll": 220492.3
+    },
+    {
+      "timestamp": "2024-09-18",
+      "bankroll": 220500.79
+    },
+    {
+      "timestamp": "2025-11-11",
+      "bankroll": 220790.95
+    },
+    {
+      "timestamp": "2025-08-30",
+      "bankroll": 220821.4
+    },
+    {
+      "timestamp": "2024-11-09",
+      "bankroll": 220830.51
+    },
+    {
+      "timestamp": "2025-10-17",
+      "bankroll": 224895.18
+    },
+    {
+      "timestamp": "2025-10-07",
+      "bankroll": 225056.34
+    },
+    {
+      "timestamp": "2024-03-08",
+      "bankroll": 225154.34
+    },
+    {
+      "timestamp": "2025-01-07",
+      "bankroll": 225282.22
+    },
+    {
+      "timestamp": "2024-02-01",
+      "bankroll": 225380.22
+    },
+    {
+      "timestamp": "2025-07-31",
+      "bankroll": 225478.22
+    },
+    {
+      "timestamp": "2024-11-28",
+      "bankroll": 225578.24
+    },
+    {
+      "timestamp": "2025-12-02",
+      "bankroll": 225644.31
+    },
+    {
+      "timestamp": "2026-01-29",
+      "bankroll": 225697.35
+    },
+    {
+      "timestamp": "2024-08-30",
+      "bankroll": 225759.28
+    },
+    {
+      "timestamp": "2024-11-28",
+      "bankroll": 225859.3
+    },
+    {
+      "timestamp": "2024-06-26",
+      "bankroll": 225955.32
+    },
+    {
+      "timestamp": "2025-07-18",
+      "bankroll": 226063.85
+    },
+    {
+      "timestamp": "2025-10-03",
+      "bankroll": 227390.42
+    },
+    {
+      "timestamp": "2026-01-09",
+      "bankroll": 227484.5
+    },
+    {
+      "timestamp": "2026-02-27",
+      "bankroll": 228558.97
+    },
+    {
+      "timestamp": "2026-01-06",
+      "bankroll": 228572.18
+    },
+    {
+      "timestamp": "2024-10-28",
+      "bankroll": 228603.78
+    },
+    {
+      "timestamp": "2026-01-31",
+      "bankroll": 233263.68
+    },
+    {
+      "timestamp": "2025-01-20",
+      "bankroll": 233767.74
+    },
+    {
+      "timestamp": "2025-06-03",
+      "bankroll": 233806.59
+    },
+    {
+      "timestamp": "2024-08-10",
+      "bankroll": 233814.12
+    },
+    {
+      "timestamp": "2024-03-09",
+      "bankroll": 233934.34
+    },
+    {
+      "timestamp": "2024-11-03",
+      "bankroll": 233943.45
+    },
+    {
+      "timestamp": "2024-08-13",
+      "bankroll": 233964.75
+    },
+    {
+      "timestamp": "2024-05-07",
+      "bankroll": 234915.39
+    },
+    {
+      "timestamp": "2024-07-05",
+      "bankroll": 234925.12
+    },
+    {
+      "timestamp": "2025-04-05",
+      "bankroll": 235004.94
+    },
+    {
+      "timestamp": "2025-03-21",
+      "bankroll": 235201.44
+    },
+    {
+      "timestamp": "2024-12-31",
+      "bankroll": 235253.29
+    },
+    {
+      "timestamp": "2024-01-10",
+      "bankroll": 235351.29
+    },
+    {
+      "timestamp": "2025-06-23",
+      "bankroll": 235392.15
+    },
+    {
+      "timestamp": "2025-05-11",
+      "bankroll": 235403.01
+    },
+    {
+      "timestamp": "2024-01-10",
+      "bankroll": 235501.01
+    },
+    {
+      "timestamp": "2024-07-15",
+      "bankroll": 235618.79
+    },
+    {
+      "timestamp": "2024-12-20",
+      "bankroll": 235819.82
+    },
+    {
+      "timestamp": "2025-11-24",
+      "bankroll": 236162.27
+    },
+    {
+      "timestamp": "2025-10-31",
+      "bankroll": 236200.03
+    },
+    {
+      "timestamp": "2024-05-31",
+      "bankroll": 236223.82
+    },
+    {
+      "timestamp": "2026-03-14",
+      "bankroll": 236250.85
+    },
+    {
+      "timestamp": "2025-04-01",
+      "bankroll": 236389.81
+    },
+    {
+      "timestamp": "2025-10-20",
+      "bankroll": 236489.83
+    },
+    {
+      "timestamp": "2025-11-03",
+      "bankroll": 236758.2
+    },
+    {
+      "timestamp": "2024-11-15",
+      "bankroll": 236925.02
+    },
+    {
+      "timestamp": "2025-11-04",
+      "bankroll": 236937.96
+    },
+    {
+      "timestamp": "2025-08-28",
+      "bankroll": 238654.15
+    },
+    {
+      "timestamp": "2025-11-16",
+      "bankroll": 239352.15
+    },
+    {
+      "timestamp": "2024-04-11",
+      "bankroll": 239454.23
+    },
+    {
+      "timestamp": "2024-04-25",
+      "bankroll": 239466.51
+    },
+    {
+      "timestamp": "2025-12-12",
+      "bankroll": 239591.79
+    },
+    {
+      "timestamp": "2026-02-06",
+      "bankroll": 239623.21
+    },
+    {
+      "timestamp": "2025-06-18",
+      "bankroll": 239670.46
+    },
+    {
+      "timestamp": "2026-02-21",
+      "bankroll": 239736.53
+    },
+    {
+      "timestamp": "2024-08-17",
+      "bankroll": 239776.37
+    },
+    {
+      "timestamp": "2025-03-20",
+      "bankroll": 240099.91
+    },
+    {
+      "timestamp": "2025-09-21",
+      "bankroll": 240390.06
+    },
+    {
+      "timestamp": "2025-12-16",
+      "bankroll": 241340.69
+    },
+    {
+      "timestamp": "2023-03-02",
+      "bankroll": 241952.98
+    },
+    {
+      "timestamp": "2024-10-23",
+      "bankroll": 242316.1
+    },
+    {
+      "timestamp": "2025-01-20",
+      "bankroll": 242338.32
+    },
+    {
+      "timestamp": "2024-08-13",
+      "bankroll": 242373.31
+    },
+    {
+      "timestamp": "2026-02-04",
+      "bankroll": 242506.6
+    },
+    {
+      "timestamp": "2025-12-14",
+      "bankroll": 242664.34
+    },
+    {
+      "timestamp": "2025-07-19",
+      "bankroll": 242870.03
+    },
+    {
+      "timestamp": "2025-11-19",
+      "bankroll": 242886.38
+    },
+    {
+      "timestamp": "2025-12-11",
+      "bankroll": 242928.26
+    },
+    {
+      "timestamp": "2024-11-03",
+      "bankroll": 242934.96
+    },
+    {
+      "timestamp": "2024-08-29",
+      "bankroll": 243019.87
+    },
+    {
+      "timestamp": "2025-01-19",
+      "bankroll": 243050.32
+    },
+    {
+      "timestamp": "2025-12-01",
+      "bankroll": 243246.83
+    },
+    {
+      "timestamp": "2025-12-16",
+      "bankroll": 243325.01
+    },
+    {
+      "timestamp": "2025-08-20",
+      "bankroll": 243500.79
+    },
+    {
+      "timestamp": "2025-06-10",
+      "bankroll": 243680.48
+    },
+    {
+      "timestamp": "2025-10-29",
+      "bankroll": 243803.2
+    },
+    {
+      "timestamp": "2026-03-05",
+      "bankroll": 243811.88
+    },
+    {
+      "timestamp": "2025-10-24",
+      "bankroll": 245528.06
+    },
+    {
+      "timestamp": "2024-09-08",
+      "bankroll": 246537.17
+    },
+    {
+      "timestamp": "2024-08-10",
+      "bankroll": 248935.17
+    },
+    {
+      "timestamp": "2024-07-25",
+      "bankroll": 248943.48
+    },
+    {
+      "timestamp": "2025-07-04",
+      "bankroll": 249131.34
+    },
+    {
+      "timestamp": "2026-01-13",
+      "bankroll": 249239.87
+    },
+    {
+      "timestamp": "2024-11-28",
+      "bankroll": 249339.89
+    },
+    {
+      "timestamp": "2025-01-23",
+      "bankroll": 249424.8
+    },
+    {
+      "timestamp": "2025-01-31",
+      "bankroll": 249555.36
+    },
+    {
+      "timestamp": "2025-01-02",
+      "bankroll": 250120.03
+    },
+    {
+      "timestamp": "2025-12-21",
+      "bankroll": 252720.73
+    },
+    {
+      "timestamp": "2025-11-03",
+      "bankroll": 252792.64
+    },
+    {
+      "timestamp": "2024-07-17",
+      "bankroll": 252803.26
+    },
+    {
+      "timestamp": "2025-02-12",
+      "bankroll": 253052.13
+    },
+    {
+      "timestamp": "2024-07-22",
+      "bankroll": 253083.47
+    },
+    {
+      "timestamp": "2024-01-04",
+      "bankroll": 253111.34
+    },
+    {
+      "timestamp": "2025-12-05",
+      "bankroll": 253226.73
+    },
+    {
+      "timestamp": "2024-08-15",
+      "bankroll": 253322.75
+    },
+    {
+      "timestamp": "2025-05-18",
+      "bankroll": 253494.72
+    },
+    {
+      "timestamp": "2025-10-25",
+      "bankroll": 253560.79
+    },
+    {
+      "timestamp": "2025-11-10",
+      "bankroll": 253577.13
+    },
+    {
+      "timestamp": "2025-10-07",
+      "bankroll": 253826.01
+    },
+    {
+      "timestamp": "end",
+      "bankroll": 253826.01
+    }
+  ]
+}

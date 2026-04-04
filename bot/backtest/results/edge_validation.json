@@ -1,0 +1,194 @@
+{
+  "polymarket_calibration": {
+    "brier_score": 0.07861068027570205,
+    "naive_brier": 0.25,
+    "bss_vs_naive": 0.6855572788971918,
+    "calibration": [
+      {
+        "bin_low": 0.0,
+        "bin_high": 0.1,
+        "mean_predicted": 0.0177,
+        "actual_frequency": 0.0261,
+        "count": 95308
+      },
+      {
+        "bin_low": 0.1,
+        "bin_high": 0.2,
+        "mean_predicted": 0.1415,
+        "actual_frequency": 0.2024,
+        "count": 11036
+      },
+      {
+        "bin_low": 0.2,
+        "bin_high": 0.3,
+        "mean_predicted": 0.2497,
+        "actual_frequency": 0.3413,
+        "count": 6475
+      },
+      {
+        "bin_low": 0.3,
+        "bin_high": 0.4,
+        "mean_predicted": 0.3499,
+        "actual_frequency": 0.365,
+        "count": 4603
+      },
+      {
+        "bin_low": 0.4,
+        "bin_high": 0.5,
+        "mean_predicted": 0.4498,
+        "actual_frequency": 0.429,
+        "count": 4235
+      },
+      {
+        "bin_low": 0.5,
+        "bin_high": 0.6,
+        "mean_predicted": 0.5464,
+        "actual_frequency": 0.4554,
+        "count": 4060
+      },
+      {
+        "bin_low": 0.6,
+        "bin_high": 0.7,
+        "mean_predicted": 0.6502,
+        "actual_frequency": 0.6015,
+        "count": 3039
+      },
+      {
+        "bin_low": 0.7,
+        "bin_high": 0.8,
+        "mean_predicted": 0.7461,
+        "actual_frequency": 0.5608,
+        "count": 2268
+      },
+      {
+        "bin_low": 0.8,
+        "bin_high": 0.9,
+        "mean_predicted": 0.8485,
+        "actual_frequency": 0.7286,
+        "count": 1912
+      },
+      {
+        "bin_low": 0.9,
+        "bin_high": 1.0,
+        "mean_predicted": 0.9528,
+        "actual_frequency": 0.9647,
+        "count": 1956
+      }
+    ]
+  },
+  "edge_by_days": {
+    "0-1 days": {
+      "avg_edge": 0.13788082437275986,
+      "median": 0.0075,
+      "pct_above_8pct": 0.3163082437275986,
+      "count": 1116
+    },
+    "2-3 days": {
+      "avg_edge": 0.14545099739809192,
+      "median": 0.01,
+      "pct_above_8pct": 0.3269731136166522,
+      "count": 1153
+    },
+    "4-7 days": {
+      "avg_edge": 0.1607982895285774,
+      "median": 0.0205,
+      "pct_above_8pct": 0.36295369211514394,
+      "count": 2397
+    },
+    "8-14 days": {
+      "avg_edge": 0.16864422849016356,
+      "median": 0.0295,
+      "pct_above_8pct": 0.39156198151220667,
+      "count": 4219
+    },
+    "15-30 days": {
+      "avg_edge": 0.15897426820247282,
+      "median": 0.027,
+      "pct_above_8pct": 0.37556800169079574,
+      "count": 9463
+    },
+    "31-90 days": {
+      "avg_edge": 0.1421784855952055,
+      "median": 0.017,
+      "pct_above_8pct": 0.3201606279090992,
+      "count": 32871
+    },
+    "90+ days": {
+      "avg_edge": 0.13966031455786218,
+      "median": 0.02,
+      "pct_above_8pct": 0.3073153825009262,
+      "count": 83673
+    }
+  },
+  "edge_by_category": {
+    "politics": {
+      "avg_edge": 0.16142073868771464,
+      "pct_above_8pct": 0.3368480247434275,
+      "count": 49791
+    },
+    "sports": {
+      "avg_edge": 0.0659933255592721,
+      "pct_above_8pct": 0.1271365882100224,
+      "count": 32587
+    },
+    "other": {
+      "avg_edge": 0.15635493768882175,
+      "pct_above_8pct": 0.35913897280966767,
+      "count": 31776
+    },
+    "crypto": {
+      "avg_edge": 0.20913139844389847,
+      "pct_above_8pct": 0.5691031941031941,
+      "count": 9768
+    },
+    "economics": {
+      "avg_edge": 0.1640359363342452,
+      "pct_above_8pct": 0.4425516040785874,
+      "count": 8042
+    },
+    "weather": {
+      "avg_edge": 0.21628459972862957,
+      "pct_above_8pct": 0.5881953867028494,
+      "count": 1474
+    },
+    "tech": {
+      "avg_edge": 0.3062644429160935,
+      "pct_above_8pct": 0.5034387895460798,
+      "count": 1454
+    }
+  },
+  "fee_viability": {
+    "1%": {
+      "profitable_pct": 0.5811389852622839,
+      "net_avg_edge": 0.2336066959217257
+    },
+    "2%": {
+      "profitable_pct": 0.49631557097529877,
+      "net_avg_edge": 0.26274798727389503
+    },
+    "3%": {
+      "profitable_pct": 0.44551196512765767,
+      "net_avg_edge": 0.2821464490149095
+    },
+    "5%": {
+      "profitable_pct": 0.3805044035228183,
+      "net_avg_edge": 0.30871938745689403
+    }
+  },
+  "edge_stats": {
+    "count": 134894,
+    "mean_edge": 0.1429,
+    "median_edge": 0.0195,
+    "std_edge": 0.2412,
+    "pct_above_2pct": 0.4963,
+    "pct_above_5pct": 0.3805,
+    "pct_above_8pct": 0.3191,
+    "pct_above_10pct": 0.296,
+    "pct_above_15pct": 0.2491
+  },
+  "sportsbook": {
+    "brier_score": 0.20907973335612454,
+    "count": 6874
+  },
+  "verdict": "GO"
+}
