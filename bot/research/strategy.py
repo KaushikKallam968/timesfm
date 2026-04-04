@@ -18,7 +18,7 @@ KELLY_FRACTION = 0.25
 MAX_TRADE_SIZE = 100.0
 MAX_PCT_PER_TRADE = 0.01
 FEE_RATE = 0.02
-SLIPPAGE = 0.008
+SLIPPAGE = 0.01
 
 # ── Filtering ─────────────────────────────────────────────────────────
 MIN_VOLUME = 1000
