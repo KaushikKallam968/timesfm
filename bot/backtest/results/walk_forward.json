@@ -1,0 +1,1292 @@
+{
+  "config": {
+    "train_window_months": 6,
+    "test_window_months": 1,
+    "edge_sweep_range": [
+      0.03,
+      0.2
+    ],
+    "edge_sweep_step": 0.01,
+    "base_params": {
+      "min_edge_threshold": 0.08,
+      "kelly_multiplier": 0.25,
+      "max_trade_size": 100.0,
+      "starting_bankroll": 10000.0,
+      "fee_rate": 0.02,
+      "max_positions": 20
+    }
+  },
+  "windows": [
+    {
+      "train_months": [
+        "2022-11",
+        "2022-12",
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04"
+      ],
+      "test_months": [
+        "2023-05"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 0.1619,
+        "total_return_pct": "16.2%",
+        "total_trades": 4,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 45.91,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 0.0688,
+        "total_return_pct": "6.9%",
+        "total_trades": 3,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 27.91,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 0.0688,
+        "total_return_pct": "6.9%",
+        "total_trades": 3,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2022-12",
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05"
+      ],
+      "test_months": [
+        "2023-06"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 0.1619,
+        "total_return_pct": "16.2%",
+        "total_trades": 4,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 45.91,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 0.0691,
+        "total_return_pct": "6.9%",
+        "total_trades": 3,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 29.42,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 0.0691,
+        "total_return_pct": "6.9%",
+        "total_trades": 3,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06"
+      ],
+      "test_months": [
+        "2023-07"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 0.1594,
+        "total_return_pct": "15.9%",
+        "total_trades": 4,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 43.19,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 0.0487,
+        "total_return_pct": "4.9%",
+        "total_trades": 3,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 29.5,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 0.0487,
+        "total_return_pct": "4.9%",
+        "total_trades": 3,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07"
+      ],
+      "test_months": [
+        "2023-08"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 0.1447,
+        "total_return_pct": "14.5%",
+        "total_trades": 4,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 32.74,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 0.0537,
+        "total_return_pct": "5.4%",
+        "total_trades": 3,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 27.59,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 0.0537,
+        "total_return_pct": "5.4%",
+        "total_trades": 3,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08"
+      ],
+      "test_months": [
+        "2023-09"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 0.1443,
+        "total_return_pct": "14.4%",
+        "total_trades": 4,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 32.44,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 0.102,
+        "total_return_pct": "10.2%",
+        "total_trades": 4,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 30.16,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 0.102,
+        "total_return_pct": "10.2%",
+        "total_trades": 4,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-09"
+      ],
+      "test_months": [
+        "2023-10"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 0.1334,
+        "total_return_pct": "13.3%",
+        "total_trades": 4,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 30.91,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 0.0776,
+        "total_return_pct": "7.8%",
+        "total_trades": 4,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 31.32,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 0.0776,
+        "total_return_pct": "7.8%",
+        "total_trades": 4,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-09",
+        "2023-10"
+      ],
+      "test_months": [
+        "2023-11"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 0.1332,
+        "total_return_pct": "13.3%",
+        "total_trades": 4,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 30.81,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 0.0821,
+        "total_return_pct": "8.2%",
+        "total_trades": 4,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 18.14,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 0.0821,
+        "total_return_pct": "8.2%",
+        "total_trades": 4,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-09",
+        "2023-10",
+        "2023-11"
+      ],
+      "test_months": [
+        "2023-12"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 0.1234,
+        "total_return_pct": "12.3%",
+        "total_trades": 4,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 31.44,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 0.0906,
+        "total_return_pct": "9.1%",
+        "total_trades": 5,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 30.02,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 0.0906,
+        "total_return_pct": "9.1%",
+        "total_trades": 5,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2023-07",
+        "2023-08",
+        "2023-09",
+        "2023-10",
+        "2023-11",
+        "2023-12"
+      ],
+      "test_months": [
+        "2024-01"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 0.1234,
+        "total_return_pct": "12.3%",
+        "total_trades": 5,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 26.91,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 1.2709,
+        "total_return_pct": "127.1%",
+        "total_trades": 50,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 11.5,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 1.2658,
+        "total_return_pct": "126.6%",
+        "total_trades": 35,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2023-08",
+        "2023-09",
+        "2023-10",
+        "2023-11",
+        "2023-12",
+        "2024-01"
+      ],
+      "test_months": [
+        "2024-02"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 1.3019,
+        "total_return_pct": "130.2%",
+        "total_trades": 50,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 10.64,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 1.3206,
+        "total_return_pct": "132.1%",
+        "total_trades": 47,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 11.47,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 1.3148,
+        "total_return_pct": "131.5%",
+        "total_trades": 32,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2023-09",
+        "2023-10",
+        "2023-11",
+        "2023-12",
+        "2024-01",
+        "2024-02"
+      ],
+      "test_months": [
+        "2024-03"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 1.6389,
+        "total_return_pct": "163.9%",
+        "total_trades": 60,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 9.18,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 1.5091,
+        "total_return_pct": "150.9%",
+        "total_trades": 69,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 12.05,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 1.5015,
+        "total_return_pct": "150.1%",
+        "total_trades": 47,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2023-10",
+        "2023-11",
+        "2023-12",
+        "2024-01",
+        "2024-02",
+        "2024-03"
+      ],
+      "test_months": [
+        "2024-04"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 1.9396,
+        "total_return_pct": "194.0%",
+        "total_trades": 83,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 9.23,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 1.7587,
+        "total_return_pct": "175.9%",
+        "total_trades": 75,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 12.99,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 1.7522,
+        "total_return_pct": "175.2%",
+        "total_trades": 53,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2023-11",
+        "2023-12",
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04"
+      ],
+      "test_months": [
+        "2024-05"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 2.3664,
+        "total_return_pct": "236.6%",
+        "total_trades": 92,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 9.35,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 1.8503,
+        "total_return_pct": "185.0%",
+        "total_trades": 75,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 11.55,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 1.8437,
+        "total_return_pct": "184.4%",
+        "total_trades": 55,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2023-12",
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05"
+      ],
+      "test_months": [
+        "2024-06"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 2.5456,
+        "total_return_pct": "254.6%",
+        "total_trades": 97,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 9.24,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 1.7324,
+        "total_return_pct": "173.2%",
+        "total_trades": 84,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 14.28,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 1.7233,
+        "total_return_pct": "172.3%",
+        "total_trades": 59,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06"
+      ],
+      "test_months": [
+        "2024-07"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 2.6856,
+        "total_return_pct": "268.6%",
+        "total_trades": 104,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 9.1,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 2.0226,
+        "total_return_pct": "202.3%",
+        "total_trades": 119,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 12.7,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 2.01,
+        "total_return_pct": "201.0%",
+        "total_trades": 80,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07"
+      ],
+      "test_months": [
+        "2024-08"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 3.5867,
+        "total_return_pct": "358.7%",
+        "total_trades": 134,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 9.32,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 1.868,
+        "total_return_pct": "186.8%",
+        "total_trades": 133,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 10.62,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 1.8508,
+        "total_return_pct": "185.1%",
+        "total_trades": 84,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08"
+      ],
+      "test_months": [
+        "2024-09"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 4.0818,
+        "total_return_pct": "408.2%",
+        "total_trades": 178,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 9.54,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 2.417,
+        "total_return_pct": "241.7%",
+        "total_trades": 157,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 16.65,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 2.3984,
+        "total_return_pct": "239.8%",
+        "total_trades": 98,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09"
+      ],
+      "test_months": [
+        "2024-10"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 5.0171,
+        "total_return_pct": "501.7%",
+        "total_trades": 216,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 10.69,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 2.5014,
+        "total_return_pct": "250.1%",
+        "total_trades": 161,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 12.19,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 2.4833,
+        "total_return_pct": "248.3%",
+        "total_trades": 106,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10"
+      ],
+      "test_months": [
+        "2024-11"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 5.7137,
+        "total_return_pct": "571.4%",
+        "total_trades": 240,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 9.67,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 3.4756,
+        "total_return_pct": "347.6%",
+        "total_trades": 171,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 14.09,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 3.4607,
+        "total_return_pct": "346.1%",
+        "total_trades": 128,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11"
+      ],
+      "test_months": [
+        "2024-12"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 6.8159,
+        "total_return_pct": "681.6%",
+        "total_trades": 275,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 10.19,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 3.0457,
+        "total_return_pct": "304.6%",
+        "total_trades": 119,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 9.75,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 3.0348,
+        "total_return_pct": "303.5%",
+        "total_trades": 83,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12"
+      ],
+      "test_months": [
+        "2025-01"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 7.2211,
+        "total_return_pct": "722.1%",
+        "total_trades": 316,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 9.5,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 3.3003,
+        "total_return_pct": "330.0%",
+        "total_trades": 120,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 12.16,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 3.2928,
+        "total_return_pct": "329.3%",
+        "total_trades": 96,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01"
+      ],
+      "test_months": [
+        "2025-02"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 7.6816,
+        "total_return_pct": "768.2%",
+        "total_trades": 329,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 10.29,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 2.0378,
+        "total_return_pct": "203.8%",
+        "total_trades": 112,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 13.75,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 2.0307,
+        "total_return_pct": "203.1%",
+        "total_trades": 89,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02"
+      ],
+      "test_months": [
+        "2025-03"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 7.3284,
+        "total_return_pct": "732.8%",
+        "total_trades": 335,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 10.34,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 2.2039,
+        "total_return_pct": "220.4%",
+        "total_trades": 106,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 12.36,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 2.1963,
+        "total_return_pct": "219.6%",
+        "total_trades": 83,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03"
+      ],
+      "test_months": [
+        "2025-04"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 7.0157,
+        "total_return_pct": "701.6%",
+        "total_trades": 327,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 10.31,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 2.0664,
+        "total_return_pct": "206.6%",
+        "total_trades": 116,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 11.64,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 2.0598,
+        "total_return_pct": "206.0%",
+        "total_trades": 92,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04"
+      ],
+      "test_months": [
+        "2025-05"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 7.2308,
+        "total_return_pct": "723.1%",
+        "total_trades": 325,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 10.33,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 2.5248,
+        "total_return_pct": "252.5%",
+        "total_trades": 120,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 16.53,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 2.514,
+        "total_return_pct": "251.4%",
+        "total_trades": 88,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05"
+      ],
+      "test_months": [
+        "2025-06"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 6.6681,
+        "total_return_pct": "666.8%",
+        "total_trades": 254,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 10.57,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 1.9675,
+        "total_return_pct": "196.8%",
+        "total_trades": 106,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 12.76,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 1.9607,
+        "total_return_pct": "196.1%",
+        "total_trades": 85,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06"
+      ],
+      "test_months": [
+        "2025-07"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 6.6903,
+        "total_return_pct": "669.0%",
+        "total_trades": 241,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 10.61,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 0.9672,
+        "total_return_pct": "96.7%",
+        "total_trades": 89,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 17.13,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 0.9624,
+        "total_return_pct": "96.2%",
+        "total_trades": 74,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07"
+      ],
+      "test_months": [
+        "2025-08"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 5.8608,
+        "total_return_pct": "586.1%",
+        "total_trades": 229,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 11.83,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 1.5726,
+        "total_return_pct": "157.3%",
+        "total_trades": 121,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 16.17,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 1.5645,
+        "total_return_pct": "156.5%",
+        "total_trades": 98,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08"
+      ],
+      "test_months": [
+        "2025-09"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 6.249,
+        "total_return_pct": "624.9%",
+        "total_trades": 248,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 11.79,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 1.8156,
+        "total_return_pct": "181.6%",
+        "total_trades": 109,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 12.13,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 1.8074,
+        "total_return_pct": "180.7%",
+        "total_trades": 85,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "test_months": [
+        "2025-10"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 6.2568,
+        "total_return_pct": "625.7%",
+        "total_trades": 244,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 11.64,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 2.77,
+        "total_return_pct": "277.0%",
+        "total_trades": 126,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 15.24,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 2.762,
+        "total_return_pct": "276.2%",
+        "total_trades": 101,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10"
+      ],
+      "test_months": [
+        "2025-11"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 6.8516,
+        "total_return_pct": "685.2%",
+        "total_trades": 255,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 12.58,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 2.9768,
+        "total_return_pct": "297.7%",
+        "total_trades": 124,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 14.14,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 2.9707,
+        "total_return_pct": "297.1%",
+        "total_trades": 104,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11"
+      ],
+      "test_months": [
+        "2025-12"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 7.0971,
+        "total_return_pct": "709.7%",
+        "total_trades": 254,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 11.59,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 4.13,
+        "total_return_pct": "413.0%",
+        "total_trades": 103,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 16.38,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 4.1229,
+        "total_return_pct": "412.3%",
+        "total_trades": 82,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12"
+      ],
+      "test_months": [
+        "2026-01"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 8.5743,
+        "total_return_pct": "857.4%",
+        "total_trades": 248,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 11.3,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 2.8072,
+        "total_return_pct": "280.7%",
+        "total_trades": 79,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 12.0,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 2.8041,
+        "total_return_pct": "280.4%",
+        "total_trades": 70,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "test_months": [
+        "2026-02"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 10.3504,
+        "total_return_pct": "1035.0%",
+        "total_trades": 278,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 11.68,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 1.6906,
+        "total_return_pct": "169.1%",
+        "total_trades": 42,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 12.69,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 1.6893,
+        "total_return_pct": "168.9%",
+        "total_trades": 38,
+        "win_rate": 1.0
+      }
+    },
+    {
+      "train_months": [
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02"
+      ],
+      "test_months": [
+        "2026-03"
+      ],
+      "best_edge_threshold": 0.03,
+      "in_sample": {
+        "total_return": 10.9636,
+        "total_return_pct": "1096.4%",
+        "total_trades": 274,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 11.78,
+        "max_drawdown": 0
+      },
+      "out_of_sample": {
+        "total_return": 0.465,
+        "total_return_pct": "46.5%",
+        "total_trades": 21,
+        "win_rate": 1.0,
+        "sharpe_equivalent": 10.72,
+        "max_drawdown": 0
+      },
+      "fixed_baseline_oos": {
+        "total_return": 0.4636,
+        "total_return_pct": "46.4%",
+        "total_trades": 16,
+        "win_rate": 1.0
+      }
+    }
+  ],
+  "aggregate": {
+    "num_windows": 35,
+    "is_mean_return": 4.3148,
+    "is_median_return": 5.0171,
+    "oos_mean_return": 1.676,
+    "oos_median_return": 1.8156,
+    "oos_pct_profitable": 1.0,
+    "baseline_mean_return": 1.6695,
+    "is_oos_degradation": 2.6388,
+    "optimized_vs_baseline": 0.0065
+  }
+}

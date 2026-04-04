@@ -1,0 +1,237 @@
+{
+  "base_params": {
+    "min_edge_threshold": 0.08,
+    "kelly_multiplier": 0.25,
+    "max_trade_size": 100.0,
+    "starting_bankroll": 10000.0,
+    "fee_rate": 0.02,
+    "max_positions": 20
+  },
+  "baseline_metrics": {
+    "total_trades": 626,
+    "total_return": 24.3826,
+    "total_return_pct": "2438.3%",
+    "final_bankroll": 253826.01,
+    "win_rate": 1.0,
+    "avg_win": 389.5,
+    "avg_loss": 0.0,
+    "profit_factor": Infinity,
+    "sharpe_equivalent": 11.27,
+    "max_drawdown": 0,
+    "avg_edge_at_entry": 0.5026,
+    "by_category": {
+      "politics": {
+        "trades": 203,
+        "wins": 203,
+        "total_pnl": 70771.54
+      },
+      "other": {
+        "trades": 240,
+        "wins": 240,
+        "total_pnl": 106032.40000000007
+      },
+      "economics": {
+        "trades": 47,
+        "wins": 47,
+        "total_pnl": 10266.979999999998
+      },
+      "tech": {
+        "trades": 9,
+        "wins": 9,
+        "total_pnl": 10242.99
+      },
+      "sports": {
+        "trades": 48,
+        "wins": 48,
+        "total_pnl": 17706.24
+      },
+      "weather": {
+        "trades": 10,
+        "wins": 10,
+        "total_pnl": 2797.88
+      },
+      "crypto": {
+        "trades": 69,
+        "wins": 69,
+        "total_pnl": 26008.039999999986
+      }
+    }
+  },
+  "bootstrap": {
+    "iterations": 1000,
+    "original_trades": 626,
+    "original_total_pnl": 243826.07,
+    "p5": 209580.01,
+    "p25": 229517.4,
+    "median": 244050.12,
+    "p75": 259120.1,
+    "p95": 281667.34,
+    "mean": 244275.13,
+    "std": 21652.09,
+    "prob_loss": 0.0,
+    "prob_loss_pct": "0.0%"
+  },
+  "monte_carlo": {
+    "iterations": 500,
+    "perturbation_range": "+/-20%",
+    "perturbed_params": [
+      "min_edge_threshold",
+      "kelly_multiplier",
+      "max_trade_size"
+    ],
+    "return_distribution": {
+      "p5": 20.0942,
+      "p25": 21.8825,
+      "median": 24.5622,
+      "p75": 26.9617,
+      "p95": 28.9079,
+      "mean": 24.463,
+      "std": 2.8609,
+      "prob_loss": 0.0,
+      "prob_loss_pct": "0.0%"
+    },
+    "trade_count_distribution": {
+      "min": 602,
+      "median": 628,
+      "max": 649
+    },
+    "max_drawdown_distribution": {
+      "p5": 0.0,
+      "median": 0.0,
+      "p95": 0.0
+    },
+    "sample_runs": [
+      {
+        "min_edge_threshold": 0.0663,
+        "kelly_multiplier": 0.2681,
+        "max_trade_size": 119.36,
+        "total_return": 29.1158,
+        "trades": 645
+      },
+      {
+        "min_edge_threshold": 0.0849,
+        "kelly_multiplier": 0.2951,
+        "max_trade_size": 119.31,
+        "total_return": 29.0815,
+        "trades": 615
+      },
+      {
+        "min_edge_threshold": 0.0859,
+        "kelly_multiplier": 0.2438,
+        "max_trade_size": 104.21,
+        "total_return": 25.4014,
+        "trades": 614
+      },
+      {
+        "min_edge_threshold": 0.0671,
+        "kelly_multiplier": 0.2446,
+        "max_trade_size": 98.37,
+        "total_return": 23.9962,
+        "trades": 644
+      },
+      {
+        "min_edge_threshold": 0.0786,
+        "kelly_multiplier": 0.2926,
+        "max_trade_size": 118.52,
+        "total_return": 28.9006,
+        "trades": 629
+      },
+      {
+        "min_edge_threshold": 0.0831,
+        "kelly_multiplier": 0.2379,
+        "max_trade_size": 112.52,
+        "total_return": 27.4282,
+        "trades": 616
+      },
+      {
+        "min_edge_threshold": 0.0649,
+        "kelly_multiplier": 0.2999,
+        "max_trade_size": 111.93,
+        "total_return": 27.3069,
+        "trades": 648
+      },
+      {
+        "min_edge_threshold": 0.0801,
+        "kelly_multiplier": 0.2498,
+        "max_trade_size": 110.58,
+        "total_return": 26.9587,
+        "trades": 620
+      },
+      {
+        "min_edge_threshold": 0.0735,
+        "kelly_multiplier": 0.2308,
+        "max_trade_size": 110.98,
+        "total_return": 27.068,
+        "trades": 637
+      },
+      {
+        "min_edge_threshold": 0.0694,
+        "kelly_multiplier": 0.2348,
+        "max_trade_size": 98.64,
+        "total_return": 24.0612,
+        "trades": 642
+      }
+    ]
+  },
+  "fee_sensitivity": {
+    "fee_rates_tested": [
+      0.005,
+      0.01,
+      0.015,
+      0.02,
+      0.03,
+      0.05
+    ],
+    "results": [
+      {
+        "fee_rate": 0.005,
+        "fee_rate_pct": "0.5%",
+        "total_return": 24.4765,
+        "total_return_pct": "2447.7%",
+        "total_trades": 626,
+        "final_bankroll": 254765.01
+      },
+      {
+        "fee_rate": 0.01,
+        "fee_rate_pct": "1.0%",
+        "total_return": 24.4452,
+        "total_return_pct": "2444.5%",
+        "total_trades": 626,
+        "final_bankroll": 254452.01
+      },
+      {
+        "fee_rate": 0.015,
+        "fee_rate_pct": "1.5%",
+        "total_return": 24.4139,
+        "total_return_pct": "2441.4%",
+        "total_trades": 626,
+        "final_bankroll": 254139.01
+      },
+      {
+        "fee_rate": 0.02,
+        "fee_rate_pct": "2.0%",
+        "total_return": 24.3826,
+        "total_return_pct": "2438.3%",
+        "total_trades": 626,
+        "final_bankroll": 253826.01
+      },
+      {
+        "fee_rate": 0.03,
+        "fee_rate_pct": "3.0%",
+        "total_return": 24.32,
+        "total_return_pct": "2432.0%",
+        "total_trades": 626,
+        "final_bankroll": 253200.01
+      },
+      {
+        "fee_rate": 0.05,
+        "fee_rate_pct": "5.0%",
+        "total_return": 24.1948,
+        "total_return_pct": "2419.5%",
+        "total_trades": 626,
+        "final_bankroll": 251948.01
+      }
+    ],
+    "breakeven_fee_rate": ">0.05"
+  }
+}
