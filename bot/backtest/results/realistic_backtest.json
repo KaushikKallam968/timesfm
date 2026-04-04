@@ -1,0 +1,1947 @@
+{
+  "95%": {
+    "per_seed": [
+      {
+        "total_trades": 26,
+        "total_return": 0.1522,
+        "total_return_pct": "15.2%",
+        "final_bankroll": 11521.51,
+        "win_rate": 0.6923,
+        "avg_win": 129.86,
+        "avg_loss": -102.0,
+        "profit_factor": 2.86,
+        "sharpe": 12.2,
+        "max_drawdown": 0.1805,
+        "max_win_streak": 7,
+        "max_loss_streak": 2,
+        "avg_perceived_edge": 0.3074,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 196.51
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 15,
+            "pnl": 1094.8999999999999
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.2085,
+        "total_return_pct": "20.9%",
+        "final_bankroll": 12085.41,
+        "win_rate": 0.8077,
+        "avg_win": 123.59,
+        "avg_loss": -102.0,
+        "profit_factor": 5.09,
+        "sharpe": 9.52,
+        "max_drawdown": 0.2104,
+        "max_win_streak": 9,
+        "max_loss_streak": 2,
+        "avg_perceived_edge": 0.2559,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 18,
+            "pnl": 1782.4799999999998
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 306.16
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 64.67
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.1696,
+        "total_return_pct": "17.0%",
+        "final_bankroll": 11696.17,
+        "win_rate": 0.7692,
+        "avg_win": 115.41,
+        "avg_loss": -102.0,
+        "profit_factor": 3.77,
+        "sharpe": 10.63,
+        "max_drawdown": 0.1914,
+        "max_win_streak": 8,
+        "max_loss_streak": 2,
+        "avg_perceived_edge": 0.2987,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 15,
+            "pnl": 1181.36
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 2,
+            "pnl": 165.68
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 64.67
+          }
+        }
+      },
+      {
+        "total_trades": 25,
+        "total_return": 0.1288,
+        "total_return_pct": "12.9%",
+        "final_bankroll": 11287.61,
+        "win_rate": 0.68,
+        "avg_win": 123.74,
+        "avg_loss": -102.0,
+        "profit_factor": 2.58,
+        "sharpe": 14.57,
+        "max_drawdown": 0.1914,
+        "max_win_streak": 11,
+        "max_loss_streak": 2,
+        "avg_perceived_edge": 0.2753,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 22,
+            "wins": 14,
+            "pnl": 765.0399999999997
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": 0.2287,
+        "total_return_pct": "22.9%",
+        "final_bankroll": 12287.4,
+        "win_rate": 0.875,
+        "avg_win": 123.5,
+        "avg_loss": -102.0,
+        "profit_factor": 8.48,
+        "sharpe": 12.23,
+        "max_drawdown": 0.1914,
+        "max_win_streak": 11,
+        "max_loss_streak": 1,
+        "avg_perceived_edge": 0.2864,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 18,
+            "pnl": 1764.83
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      }
+    ],
+    "avg_return": 0.1776,
+    "avg_win_rate": 0.7648,
+    "avg_max_drawdown": 0.193,
+    "avg_sharpe": 11.83,
+    "avg_profit_factor": 4.56,
+    "seeds_with_loss": 0
+  },
+  "90%": {
+    "per_seed": [
+      {
+        "total_trades": 24,
+        "total_return": 0.1247,
+        "total_return_pct": "12.5%",
+        "final_bankroll": 11246.61,
+        "win_rate": 0.625,
+        "avg_win": 144.31,
+        "avg_loss": -102.0,
+        "profit_factor": 2.36,
+        "sharpe": 11.9,
+        "max_drawdown": 0.1907,
+        "max_win_streak": 4,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.3259,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 196.51
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 12,
+            "pnl": 718.01
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.2085,
+        "total_return_pct": "20.9%",
+        "final_bankroll": 12085.41,
+        "win_rate": 0.8077,
+        "avg_win": 123.59,
+        "avg_loss": -102.0,
+        "profit_factor": 5.09,
+        "sharpe": 9.52,
+        "max_drawdown": 0.2104,
+        "max_win_streak": 9,
+        "max_loss_streak": 2,
+        "avg_perceived_edge": 0.2546,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 18,
+            "pnl": 1782.4799999999998
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 306.16
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 64.67
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.1308,
+        "total_return_pct": "13.1%",
+        "final_bankroll": 11307.68,
+        "win_rate": 0.6923,
+        "avg_win": 117.98,
+        "avg_loss": -102.0,
+        "profit_factor": 2.6,
+        "sharpe": 9.03,
+        "max_drawdown": 0.2104,
+        "max_win_streak": 6,
+        "max_loss_streak": 2,
+        "avg_perceived_edge": 0.2957,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 14,
+            "pnl": 983.3399999999999
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 2,
+            "pnl": 165.68
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 64.67
+          }
+        }
+      },
+      {
+        "total_trades": 25,
+        "total_return": 0.0892,
+        "total_return_pct": "8.9%",
+        "final_bankroll": 10891.57,
+        "win_rate": 0.6,
+        "avg_win": 127.44,
+        "avg_loss": -102.0,
+        "profit_factor": 1.87,
+        "sharpe": 12.14,
+        "max_drawdown": 0.1914,
+        "max_win_streak": 8,
+        "max_loss_streak": 2,
+        "avg_perceived_edge": 0.2643,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 22,
+            "wins": 12,
+            "pnl": 368.9999999999998
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": 0.1891,
+        "total_return_pct": "18.9%",
+        "final_bankroll": 11891.36,
+        "win_rate": 0.7917,
+        "avg_win": 126.39,
+        "avg_loss": -102.0,
+        "profit_factor": 4.71,
+        "sharpe": 12.48,
+        "max_drawdown": 0.1914,
+        "max_win_streak": 9,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.2924,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 16,
+            "pnl": 1368.79
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      }
+    ],
+    "avg_return": 0.1485,
+    "avg_win_rate": 0.7033,
+    "avg_max_drawdown": 0.1989,
+    "avg_sharpe": 11.01,
+    "avg_profit_factor": 3.33,
+    "seeds_with_loss": 0
+  },
+  "85%": {
+    "per_seed": [
+      {
+        "total_trades": 24,
+        "total_return": 0.1247,
+        "total_return_pct": "12.5%",
+        "final_bankroll": 11246.61,
+        "win_rate": 0.625,
+        "avg_win": 144.31,
+        "avg_loss": -102.0,
+        "profit_factor": 2.36,
+        "sharpe": 11.9,
+        "max_drawdown": 0.1907,
+        "max_win_streak": 4,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.3259,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 196.51
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 12,
+            "pnl": 718.01
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.1879,
+        "total_return_pct": "18.8%",
+        "final_bankroll": 11879.23,
+        "win_rate": 0.7692,
+        "avg_win": 124.56,
+        "avg_loss": -102.0,
+        "profit_factor": 4.07,
+        "sharpe": 9.49,
+        "max_drawdown": 0.2104,
+        "max_win_streak": 7,
+        "max_loss_streak": 2,
+        "avg_perceived_edge": 0.2565,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 17,
+            "pnl": 1584.4599999999998
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 64.67
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.111,
+        "total_return_pct": "11.1%",
+        "final_bankroll": 11109.66,
+        "win_rate": 0.6538,
+        "avg_win": 119.27,
+        "avg_loss": -102.0,
+        "profit_factor": 2.21,
+        "sharpe": 7.61,
+        "max_drawdown": 0.2116,
+        "max_win_streak": 6,
+        "max_loss_streak": 2,
+        "avg_perceived_edge": 0.2841,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 13,
+            "pnl": 785.3199999999999
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 2,
+            "pnl": 165.68
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 64.67
+          }
+        }
+      },
+      {
+        "total_trades": 27,
+        "total_return": 0.0915,
+        "total_return_pct": "9.2%",
+        "final_bankroll": 10915.44,
+        "win_rate": 0.5926,
+        "avg_win": 127.34,
+        "avg_loss": -102.0,
+        "profit_factor": 1.82,
+        "sharpe": 7.16,
+        "max_drawdown": 0.2027,
+        "max_win_streak": 8,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.2875,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 22,
+            "wins": 12,
+            "pnl": 352.9599999999999
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "economics": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 141.9
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": 0.1491,
+        "total_return_pct": "14.9%",
+        "final_bankroll": 11491.36,
+        "win_rate": 0.75,
+        "avg_win": 116.85,
+        "avg_loss": -102.0,
+        "profit_factor": 3.44,
+        "sharpe": 12.88,
+        "max_drawdown": 0.1914,
+        "max_win_streak": 9,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.3039,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 22,
+            "wins": 16,
+            "pnl": 1266.79
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          }
+        }
+      }
+    ],
+    "avg_return": 0.1328,
+    "avg_win_rate": 0.6781,
+    "avg_max_drawdown": 0.2014,
+    "avg_sharpe": 9.81,
+    "avg_profit_factor": 2.78,
+    "seeds_with_loss": 0
+  },
+  "80%": {
+    "per_seed": [
+      {
+        "total_trades": 24,
+        "total_return": 0.1049,
+        "total_return_pct": "10.5%",
+        "final_bankroll": 11048.59,
+        "win_rate": 0.5833,
+        "avg_win": 147.76,
+        "avg_loss": -102.0,
+        "profit_factor": 2.03,
+        "sharpe": 12.01,
+        "max_drawdown": 0.1907,
+        "max_win_streak": 5,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.3473,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 196.51
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 11,
+            "pnl": 519.99
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.1879,
+        "total_return_pct": "18.8%",
+        "final_bankroll": 11879.23,
+        "win_rate": 0.7692,
+        "avg_win": 124.56,
+        "avg_loss": -102.0,
+        "profit_factor": 4.07,
+        "sharpe": 9.49,
+        "max_drawdown": 0.2104,
+        "max_win_streak": 7,
+        "max_loss_streak": 2,
+        "avg_perceived_edge": 0.2565,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 17,
+            "pnl": 1584.4599999999998
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 64.67
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": 0.0642,
+        "total_return_pct": "6.4%",
+        "final_bankroll": 10642.36,
+        "win_rate": 0.5833,
+        "avg_win": 118.74,
+        "avg_loss": -102.0,
+        "profit_factor": 1.63,
+        "sharpe": 7.65,
+        "max_drawdown": 0.211,
+        "max_win_streak": 5,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.255,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 12,
+            "pnl": 412.26
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.0989,
+        "total_return_pct": "9.9%",
+        "final_bankroll": 10989.34,
+        "win_rate": 0.6154,
+        "avg_win": 125.58,
+        "avg_loss": -102.0,
+        "profit_factor": 1.97,
+        "sharpe": 9.06,
+        "max_drawdown": 0.1925,
+        "max_win_streak": 6,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.2791,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 11,
+            "pnl": 474.51999999999987
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 2,
+            "pnl": 165.68
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 64.67
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": 0.1491,
+        "total_return_pct": "14.9%",
+        "final_bankroll": 11491.36,
+        "win_rate": 0.75,
+        "avg_win": 116.85,
+        "avg_loss": -102.0,
+        "profit_factor": 3.44,
+        "sharpe": 12.88,
+        "max_drawdown": 0.1914,
+        "max_win_streak": 9,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.3039,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 22,
+            "wins": 16,
+            "pnl": 1266.79
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          }
+        }
+      }
+    ],
+    "avg_return": 0.121,
+    "avg_win_rate": 0.6602,
+    "avg_max_drawdown": 0.1992,
+    "avg_sharpe": 10.22,
+    "avg_profit_factor": 2.63,
+    "seeds_with_loss": 0
+  },
+  "75%": {
+    "per_seed": [
+      {
+        "total_trades": 24,
+        "total_return": 0.1049,
+        "total_return_pct": "10.5%",
+        "final_bankroll": 11048.59,
+        "win_rate": 0.5833,
+        "avg_win": 147.76,
+        "avg_loss": -102.0,
+        "profit_factor": 2.03,
+        "sharpe": 12.01,
+        "max_drawdown": 0.1907,
+        "max_win_streak": 5,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.3473,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 196.51
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 11,
+            "pnl": 519.99
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.1483,
+        "total_return_pct": "14.8%",
+        "final_bankroll": 11483.19,
+        "win_rate": 0.6923,
+        "avg_win": 127.73,
+        "avg_loss": -102.0,
+        "profit_factor": 2.82,
+        "sharpe": 9.39,
+        "max_drawdown": 0.2104,
+        "max_win_streak": 7,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.2698,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 15,
+            "pnl": 1188.4199999999998
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 64.67
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": 0.0444,
+        "total_return_pct": "4.4%",
+        "final_bankroll": 10444.34,
+        "win_rate": 0.5417,
+        "avg_win": 120.49,
+        "avg_loss": -102.0,
+        "profit_factor": 1.4,
+        "sharpe": 6.71,
+        "max_drawdown": 0.211,
+        "max_win_streak": 4,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.2628,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 11,
+            "pnl": 214.23999999999995
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.0651,
+        "total_return_pct": "6.5%",
+        "final_bankroll": 10651.11,
+        "win_rate": 0.5385,
+        "avg_win": 133.94,
+        "avg_loss": -102.0,
+        "profit_factor": 1.53,
+        "sharpe": 8.69,
+        "max_drawdown": 0.1925,
+        "max_win_streak": 6,
+        "max_loss_streak": 6,
+        "avg_perceived_edge": 0.2908,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 9,
+            "pnl": 136.28999999999988
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 2,
+            "pnl": 165.68
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 64.67
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": 0.1293,
+        "total_return_pct": "12.9%",
+        "final_bankroll": 11293.34,
+        "win_rate": 0.7083,
+        "avg_win": 118.08,
+        "avg_loss": -102.0,
+        "profit_factor": 2.81,
+        "sharpe": 10.74,
+        "max_drawdown": 0.2016,
+        "max_win_streak": 8,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.3059,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 22,
+            "wins": 15,
+            "pnl": 1068.77
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          }
+        }
+      }
+    ],
+    "avg_return": 0.0984,
+    "avg_win_rate": 0.6128,
+    "avg_max_drawdown": 0.2012,
+    "avg_sharpe": 9.51,
+    "avg_profit_factor": 2.12,
+    "seeds_with_loss": 0
+  },
+  "70%": {
+    "per_seed": [
+      {
+        "total_trades": 27,
+        "total_return": 0.0078,
+        "total_return_pct": "0.8%",
+        "final_bankroll": 10077.95,
+        "win_rate": 0.4444,
+        "avg_win": 134.0,
+        "avg_loss": -102.0,
+        "profit_factor": 1.05,
+        "sharpe": 0.96,
+        "max_drawdown": 0.2518,
+        "max_win_streak": 4,
+        "max_loss_streak": 4,
+        "avg_perceived_edge": 0.3588,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 9,
+            "pnl": -192.0500000000001
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "economics": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 141.9
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.1483,
+        "total_return_pct": "14.8%",
+        "final_bankroll": 11483.19,
+        "win_rate": 0.6923,
+        "avg_win": 127.73,
+        "avg_loss": -102.0,
+        "profit_factor": 2.82,
+        "sharpe": 9.39,
+        "max_drawdown": 0.2104,
+        "max_win_streak": 7,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.2698,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 15,
+            "pnl": 1188.4199999999998
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 64.67
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": 0.0246,
+        "total_return_pct": "2.5%",
+        "final_bankroll": 10246.32,
+        "win_rate": 0.5,
+        "avg_win": 122.53,
+        "avg_loss": -102.0,
+        "profit_factor": 1.2,
+        "sharpe": 5.09,
+        "max_drawdown": 0.211,
+        "max_win_streak": 4,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.2655,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 10,
+            "pnl": 16.219999999999857
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.052,
+        "total_return_pct": "5.2%",
+        "final_bankroll": 10519.53,
+        "win_rate": 0.5,
+        "avg_win": 141.96,
+        "avg_loss": -102.0,
+        "profit_factor": 1.39,
+        "sharpe": 8.39,
+        "max_drawdown": 0.1925,
+        "max_win_streak": 6,
+        "max_loss_streak": 6,
+        "avg_perceived_edge": 0.299,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 9,
+            "pnl": 136.28999999999988
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 64.67
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": 0.0517,
+        "total_return_pct": "5.2%",
+        "final_bankroll": 10517.3,
+        "win_rate": 0.5417,
+        "avg_win": 126.1,
+        "avg_loss": -102.0,
+        "profit_factor": 1.46,
+        "sharpe": 10.1,
+        "max_drawdown": 0.2022,
+        "max_win_streak": 6,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.3025,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 22,
+            "wins": 11,
+            "pnl": 292.72999999999985
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          }
+        }
+      }
+    ],
+    "avg_return": 0.0569,
+    "avg_win_rate": 0.5357,
+    "avg_max_drawdown": 0.2136,
+    "avg_sharpe": 6.79,
+    "avg_profit_factor": 1.58,
+    "seeds_with_loss": 0
+  },
+  "65%": {
+    "per_seed": [
+      {
+        "total_trades": 27,
+        "total_return": -0.0166,
+        "total_return_pct": "-1.7%",
+        "final_bankroll": 9834.05,
+        "win_rate": 0.4074,
+        "avg_win": 133.28,
+        "avg_loss": -102.0,
+        "profit_factor": 0.9,
+        "sharpe": -3.13,
+        "max_drawdown": 0.2518,
+        "max_win_streak": 4,
+        "max_loss_streak": 4,
+        "avg_perceived_edge": 0.3559,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 9,
+            "pnl": -192.0500000000001
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "economics": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.0891,
+        "total_return_pct": "8.9%",
+        "final_bankroll": 10891.43,
+        "win_rate": 0.5769,
+        "avg_win": 134.23,
+        "avg_loss": -102.0,
+        "profit_factor": 1.79,
+        "sharpe": 6.04,
+        "max_drawdown": 0.2314,
+        "max_win_streak": 7,
+        "max_loss_streak": 4,
+        "avg_perceived_edge": 0.3093,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 13,
+            "pnl": 865.3299999999999
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": -0.0134,
+        "total_return_pct": "-1.3%",
+        "final_bankroll": 9866.31,
+        "win_rate": 0.4167,
+        "avg_win": 129.43,
+        "avg_loss": -102.0,
+        "profit_factor": 0.91,
+        "sharpe": -8.57,
+        "max_drawdown": 0.211,
+        "max_win_streak": 3,
+        "max_loss_streak": 5,
+        "avg_perceived_edge": 0.2611,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 8,
+            "pnl": -363.78000000000014
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      },
+      {
+        "total_trades": 27,
+        "total_return": 0.0268,
+        "total_return_pct": "2.7%",
+        "final_bankroll": 10267.69,
+        "win_rate": 0.4444,
+        "avg_win": 149.81,
+        "avg_loss": -102.0,
+        "profit_factor": 1.17,
+        "sharpe": 3.34,
+        "max_drawdown": 0.2226,
+        "max_win_streak": 6,
+        "max_loss_streak": 5,
+        "avg_perceived_edge": 0.3007,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 9,
+            "pnl": 51.11999999999989
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "economics": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": 0.0361,
+        "total_return_pct": "3.6%",
+        "final_bankroll": 10360.86,
+        "win_rate": 0.5,
+        "avg_win": 132.07,
+        "avg_loss": -102.0,
+        "profit_factor": 1.29,
+        "sharpe": 9.55,
+        "max_drawdown": 0.2022,
+        "max_win_streak": 6,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.279,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 9,
+            "pnl": -161.71000000000015
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      }
+    ],
+    "avg_return": 0.0244,
+    "avg_win_rate": 0.4691,
+    "avg_max_drawdown": 0.2238,
+    "avg_sharpe": 1.45,
+    "avg_profit_factor": 1.21,
+    "seeds_with_loss": 2
+  },
+  "60%": {
+    "per_seed": [
+      {
+        "total_trades": 24,
+        "total_return": 0.0082,
+        "total_return_pct": "0.8%",
+        "final_bankroll": 10082.44,
+        "win_rate": 0.4583,
+        "avg_win": 128.04,
+        "avg_loss": -102.0,
+        "profit_factor": 1.06,
+        "sharpe": 1.43,
+        "max_drawdown": 0.241,
+        "max_win_streak": 4,
+        "max_loss_streak": 5,
+        "avg_perceived_edge": 0.3187,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 10,
+            "pnl": 150.32999999999993
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.0936,
+        "total_return_pct": "9.4%",
+        "final_bankroll": 10936.04,
+        "win_rate": 0.5769,
+        "avg_win": 137.2,
+        "avg_loss": -102.0,
+        "profit_factor": 1.83,
+        "sharpe": 11.1,
+        "max_drawdown": 0.1914,
+        "max_win_streak": 5,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.2536,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 12,
+            "pnl": 617.4699999999999
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": -0.0332,
+        "total_return_pct": "-3.3%",
+        "final_bankroll": 9668.29,
+        "win_rate": 0.375,
+        "avg_win": 133.14,
+        "avg_loss": -102.0,
+        "profit_factor": 0.78,
+        "sharpe": -35.09,
+        "max_drawdown": 0.211,
+        "max_win_streak": 2,
+        "max_loss_streak": 6,
+        "avg_perceived_edge": 0.269,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 7,
+            "pnl": -561.8000000000002
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": -0.0019,
+        "total_return_pct": "-0.2%",
+        "final_bankroll": 9981.2,
+        "win_rate": 0.3846,
+        "avg_win": 161.32,
+        "avg_loss": -102.0,
+        "profit_factor": 0.99,
+        "sharpe": -0.36,
+        "max_drawdown": 0.2314,
+        "max_win_streak": 6,
+        "max_loss_streak": 8,
+        "avg_perceived_edge": 0.3021,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 8,
+            "pnl": -44.90000000000009
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": 0.0163,
+        "total_return_pct": "1.6%",
+        "final_bankroll": 10162.84,
+        "win_rate": 0.4583,
+        "avg_win": 135.35,
+        "avg_loss": -102.0,
+        "profit_factor": 1.12,
+        "sharpe": 7.34,
+        "max_drawdown": 0.2022,
+        "max_win_streak": 6,
+        "max_loss_streak": 4,
+        "avg_perceived_edge": 0.2816,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 8,
+            "pnl": -359.73000000000013
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      }
+    ],
+    "avg_return": 0.0166,
+    "avg_win_rate": 0.4506,
+    "avg_max_drawdown": 0.2154,
+    "avg_sharpe": -3.12,
+    "avg_profit_factor": 1.16,
+    "seeds_with_loss": 2
+  },
+  "55%": {
+    "per_seed": [
+      {
+        "total_trades": 24,
+        "total_return": 0.0082,
+        "total_return_pct": "0.8%",
+        "final_bankroll": 10082.44,
+        "win_rate": 0.4583,
+        "avg_win": 128.04,
+        "avg_loss": -102.0,
+        "profit_factor": 1.06,
+        "sharpe": 1.43,
+        "max_drawdown": 0.241,
+        "max_win_streak": 4,
+        "max_loss_streak": 5,
+        "avg_perceived_edge": 0.3187,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 10,
+            "pnl": 150.32999999999993
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": 0.0938,
+        "total_return_pct": "9.4%",
+        "final_bankroll": 10937.56,
+        "win_rate": 0.5769,
+        "avg_win": 137.3,
+        "avg_loss": -102.0,
+        "profit_factor": 1.84,
+        "sharpe": 11.1,
+        "max_drawdown": 0.1914,
+        "max_win_streak": 5,
+        "max_loss_streak": 3,
+        "avg_perceived_edge": 0.2644,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 11,
+            "pnl": 452.31999999999994
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 64.67
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": -0.0332,
+        "total_return_pct": "-3.3%",
+        "final_bankroll": 9668.29,
+        "win_rate": 0.375,
+        "avg_win": 133.14,
+        "avg_loss": -102.0,
+        "profit_factor": 0.78,
+        "sharpe": -35.09,
+        "max_drawdown": 0.211,
+        "max_win_streak": 2,
+        "max_loss_streak": 6,
+        "avg_perceived_edge": 0.269,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 7,
+            "pnl": -561.8000000000002
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      },
+      {
+        "total_trades": 26,
+        "total_return": -0.0019,
+        "total_return_pct": "-0.2%",
+        "final_bankroll": 9981.2,
+        "win_rate": 0.3846,
+        "avg_win": 161.32,
+        "avg_loss": -102.0,
+        "profit_factor": 0.99,
+        "sharpe": -0.36,
+        "max_drawdown": 0.2314,
+        "max_win_streak": 6,
+        "max_loss_streak": 8,
+        "avg_perceived_edge": 0.3021,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "politics": {
+            "trades": 20,
+            "wins": 8,
+            "pnl": -44.90000000000009
+          },
+          "sports": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          },
+          "crypto": {
+            "trades": 2,
+            "wins": 1,
+            "pnl": 34.099999999999994
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          },
+          "weather": {
+            "trades": 1,
+            "wins": 0,
+            "pnl": -102.0
+          }
+        }
+      },
+      {
+        "total_trades": 24,
+        "total_return": 0.0163,
+        "total_return_pct": "1.6%",
+        "final_bankroll": 10162.84,
+        "win_rate": 0.4583,
+        "avg_win": 135.35,
+        "avg_loss": -102.0,
+        "profit_factor": 1.12,
+        "sharpe": 7.34,
+        "max_drawdown": 0.2022,
+        "max_win_streak": 6,
+        "max_loss_streak": 4,
+        "avg_perceived_edge": 0.2816,
+        "by_category": {
+          "other": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 88.48
+          },
+          "politics": {
+            "trades": 21,
+            "wins": 8,
+            "pnl": -359.73000000000013
+          },
+          "crypto": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 136.1
+          },
+          "tech": {
+            "trades": 1,
+            "wins": 1,
+            "pnl": 298.0
+          }
+        }
+      }
+    ],
+    "avg_return": 0.0166,
+    "avg_win_rate": 0.4506,
+    "avg_max_drawdown": 0.2154,
+    "avg_sharpe": -3.12,
+    "avg_profit_factor": 1.16,
+    "seeds_with_loss": 2
+  }
+}
