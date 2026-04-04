@@ -17,7 +17,7 @@ DIR_TRUTH_ACCURACY = 0.9
 KELLY_FRACTION = 0.25
 MAX_TRADE_SIZE = 100.0
 MAX_PCT_PER_TRADE = 0.01
-FEE_RATE = 0.02
+FEE_RATE = 0.005
 SLIPPAGE = 0.02
 
 # ── Filtering ─────────────────────────────────────────────────────────
