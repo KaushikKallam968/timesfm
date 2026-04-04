@@ -22,3 +22,6 @@ def load_real_historical(data_dir=None):
 
 def load_polymarket_markets(data_dir=None):
     return load_chunked("polymarket_markets", data_dir)
+
+def load_price_histories(data_dir=None):
+    return load_chunked("price_history", data_dir)
