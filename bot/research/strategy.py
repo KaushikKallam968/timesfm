@@ -22,7 +22,7 @@ SLIPPAGE = 0.02
 
 # ── Filtering ─────────────────────────────────────────────────────────
 MIN_VOLUME = 1000
-EXCLUDED_CATEGORIES = ['crypto']
+EXCLUDED_CATEGORIES = ['sports', 'esports', 'crypto', 'other', 'weather', 'tech', 'economics']
 MAX_POSITIONS = 20
 CATEGORY_EDGE_OVERRIDES = {}   # e.g. {"politics": 0.12}
 
