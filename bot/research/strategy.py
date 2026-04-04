@@ -16,7 +16,7 @@ DIR_TRUTH_ACCURACY = 0.9
 # ── Sizing & Risk ─────────────────────────────────────────────────────
 KELLY_FRACTION = 0.25
 MAX_TRADE_SIZE = 100.0
-MAX_PCT_PER_TRADE = 0.05
+MAX_PCT_PER_TRADE = 0.01
 FEE_RATE = 0.02
 SLIPPAGE = 0.005
 
